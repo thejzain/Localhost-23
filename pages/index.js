@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Loginbtn from "./loginbtn";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <h2 className="text-gray-500">hi</h2>
+        <Loginbtn />
       </main>
     </>
   );
