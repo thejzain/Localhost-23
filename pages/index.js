@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Loginbtn from "./loginbtn";
 
+
 export default function Home() {
   return (
     <>
@@ -11,8 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h2 className="text-gray-500">hi</h2>
-        <Loginbtn />
+        <h1>hi</h1>
       </main>
     </>
   );
