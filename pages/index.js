@@ -1,6 +1,8 @@
-import Navbar from "@/components/navbar/navbar";
+import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import Loginbtn from "./loginbtn";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 
 export default function Home() {
@@ -13,8 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar/>
-        
+        <Loginbtn/>
       </main>
     </>
   );
