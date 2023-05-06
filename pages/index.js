@@ -18,7 +18,7 @@ export default function Home() {
             size={[`2000px`, `3000px`]}
             style={{ width: `100%`, height: `100%`, position: `relative` }}
             shadows
-            camera={{ position: [10, 0, 80], fov: 50 }}
+            // camera={{ position: [10, 0, 80], fov: 50 }}
           >
             <Experiece />
           </Canvas>
