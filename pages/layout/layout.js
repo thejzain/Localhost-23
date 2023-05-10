@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="bg-black text-white font-pixel">
       <div>
         <Navbar />
       </div>
