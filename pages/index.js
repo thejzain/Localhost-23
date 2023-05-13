@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Loginbtn from "./loginbtn";
 import { Experiece } from "@/components/experience";
 import { Canvas } from "@react-three/fiber";
 
