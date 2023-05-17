@@ -1,4 +1,3 @@
-import Card from "@/components/card";
 import Carousel from "@/components/carousel";
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
       <div>
         <Carousel />
       </div>
-      <Card />
     </div>
   );
 }

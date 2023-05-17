@@ -2,11 +2,11 @@ import Navbar from "@/components/navbar/Navbar";
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-black text-white font-pixel h-screen">
-      <div>
+    <div className="bg-black text-white font-pixel ">
+      <div className="">
         <Navbar />
       </div>
-      <div>{ children }</div>
+      <div className="pb-10">{ children }</div>
     </div>
   );
 }

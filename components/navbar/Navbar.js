@@ -16,13 +16,13 @@ const Navbar = (props) => {
   const navItems = [
     {
       key: 0,
-      name: "About us",
-      link: "#",
+      name: "Home",
+      link: "/home",
     },
     {
       key: 1,
-      name: "Contacts",
-      link: "#",
+      name: "Events",
+      link: "/events",
     },
     {
       key: 2,
