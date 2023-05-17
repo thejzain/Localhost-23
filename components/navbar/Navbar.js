@@ -1,8 +1,17 @@
+"use client";
+
 import { useRouter } from "next/router";
-import { Switch } from "@headlessui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
+
+import { signIn, useSession } from "next-auth/react";
+
 const Navbar = (props) => {
+  const { data: session, status } = useSession();
+
+  useEffect(() => {
+    console.log(session);
+  });
   const [enabled, setEnabled] = useState(false);
   const navItems = [
     {
@@ -21,6 +30,10 @@ const Navbar = (props) => {
       link: "#",
     },
   ];
+  const handleSignin = (e) => {
+    e.preventDefault();
+    signIn();
+  };
   const router = useRouter();
   if (router.pathname != "/")
     return (
@@ -44,22 +57,17 @@ const Navbar = (props) => {
         </div>
         <div className="my-auto font-bold text-xl">Brand</div>
         <div className="toggleswitch flex my-auto gap-4">
-          <div className="text-2xl">Sound</div>
-          <div className="my-auto mt-2">
-            <Switch
-              checked={enabled}
-              onChange={setEnabled}
-              className={`${enabled ? "bg-gray-300" : "bg-gray-300"}
-          relative inline-flex h-[20px] w-[47px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
-            >
-              <span className="sr-only">Use setting</span>
-              <span
-                aria-hidden="true"
-                className={`${enabled ? "translate-x-7" : "translate-x-0"}
-            pointer-events-none inline-block h-[16px] w-[16px] transform rounded-full bg-gray-800 shadow-lg ring-0 transition duration-200 ease-in-out`}
+          {session ? (
+            <div onClick={() => router.push("/profile")}>
+              <img
+                src={session.user?.image}
+                className="rounded-full "
+                width={50}
               />
-            </Switch>
-          </div>
+            </div>
+          ) : (
+            <button onClick={(e) => handleSignin(e)}>Login</button>
+          )}
         </div>
       </div>
     );

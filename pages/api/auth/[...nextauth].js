@@ -1,7 +1,5 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import prisma from "@/libs/prisma";
 import axios from "axios";
 
 export default NextAuth({
@@ -13,6 +11,7 @@ export default NextAuth({
   ],
   session: {
     jwt: true,
+    maxAge: 60 * 60,
   },
   jwt: {
     secret: process.env.NEXTSECRET,
@@ -25,9 +24,12 @@ export default NextAuth({
       // console.log(token);
       return token;
     },
-    async session({session, token, user}) {
+    async session({ session, token, user }) {
       // console.log(token.token.user)
-      const res = await axios.post(process.env.BACKEND + "/api/user", { user: token.token.user, option: 0 });
+      const res = await axios.post(process.env.BACKEND + "/api/user", {
+        user: token.token.user,
+        option: 0,
+      });
       if (res.data.success === true) {
         return {
           ...session,

@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     try {
       switch (req.body.option) {
         case 0: {
-          const { name, email } = req.body.user;
+          const { name, email, image } = req.body.user;
           console.log({ name, email });
           const user = await prisma.user.findUnique({
             where: {
@@ -25,14 +25,15 @@ export default async function handler(req, res) {
             return res.json({ success: true, user: user });
           } else {
             const newuser = await prisma.user.create({
-              data: { username: name, email: email },
+              data: { username: name, email: email, image: image },
             });
             return res.json({ success: true, user: newuser });
           }
         }
       }
     } catch (err) {
-      console.log(err);
+      // console.log(err);
+      return res.json({ success: false, message: err.message });
     }
   }
 }
