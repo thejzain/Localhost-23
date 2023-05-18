@@ -16,5 +16,14 @@ model User {
   college    String?
   department String?
   batch      String?
+  csimember  Boolean?
   events     String[]
+}
+
+model Transactions {
+  id            String @id @default(auto()) @map("_id") @db.ObjectId
+  email         String
+  username      String
+  event         String
+  transactionid String
 }

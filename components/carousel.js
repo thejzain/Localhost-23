@@ -9,14 +9,21 @@ export default function Carousel() {
   return (
     <>
       <Swiper
+        loop
         slidesPerView={2.3}
         spaceBetween={30}
         modules={[Pagination]}
         className="mySwiper w-[70vw]"
       >
-        <SwiperSlide><Card1/></SwiperSlide>
-        <SwiperSlide><Card1/></SwiperSlide>
-        <SwiperSlide><Card1/></SwiperSlide>
+        <SwiperSlide>
+          <Card1 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Card1 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Card1 />
+        </SwiperSlide>
       </Swiper>
     </>
   );

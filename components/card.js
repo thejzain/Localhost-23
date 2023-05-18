@@ -7,7 +7,7 @@ function Card1() {
     <Card
       css={{ w: "100%", h: "400px" }}
       isPressable
-      onPress={() => router.push("/event")}
+      onClick={() => router.push("/event")}
     >
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
