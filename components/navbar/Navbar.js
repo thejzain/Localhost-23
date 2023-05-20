@@ -21,7 +21,7 @@ const Navbar = (props) => {
     {
       key: 1,
       name: "Events",
-      link: "/events",
+      link: "/event",
     },
     {
       key: 2,

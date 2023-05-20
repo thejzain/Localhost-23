@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { Input, Grid, Button, Spacer } from "@nextui-org/react";
 import axios from "axios";
 import { useSession } from "next-auth/react";
+import events from "@/contents/events";
 
 export default function EventPage({ eventdata }) {
   const rout = useRouter();
@@ -26,18 +27,23 @@ export default function EventPage({ eventdata }) {
   }
 
   return (
-    <div className="h-screen grid grid-cols-2">
+    <div className="h-screen grid md:grid-cols-2 grid-rows-2">
       <div className="h-screen grid place-items-center content-center ">
         <div>
-          <img src="https://nextui.org/images/card-example-2.jpeg"></img>
+          <img src={eventdata?.img}></img>
         </div>
       </div>
       <div className="grid grid-rows-2 justify-center">
-        <div>
-          <div className="text-6xl text-center pt-[10vh]">Name</div>
+        <div className="mt-10 md:mt-0">
+          <div className="text-6xl text-center pt-[10vh]">
+            {eventdata?.name}
+          </div>
           <Spacer y={3} />
-          <div>ahsdgfhjasdgfhkjasdgfhjadsfjhbshafbajhsdbjh</div>
+          <div>{eventdata?.des}</div>
+          <Spacer y={2} />
+          <div className="text-xl">{eventdata?.date}</div>
         </div>
+        <Spacer y={3} />
         <div>
           <div>
             <Input
@@ -59,4 +65,28 @@ export default function EventPage({ eventdata }) {
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  // console.log(context.query.name);
+  try {
+    const name = context.query.name;
+    const event = events.find((event) => event.link === name);
+    // console.log(event);
+    if (event != undefined) {
+      return {
+        props: {
+          eventdata: event,
+        },
+      };
+    } else {
+      return {
+        props: {
+          eventdata: null,
+        },
+      };
+    }
+  } catch (err) {
+    console.log(err);
+  }
 }
