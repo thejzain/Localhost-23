@@ -8,13 +8,14 @@ function Card1(props) {
       css={{ w: "100%", h: "400px" }}
       isPressable
       onClick={() => router.push("/event/" + props.link)}
+      className="transition hover:scale-110 "
     >
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
-          <Text h3 color="white">
+          <Text color="white" className="text-3xl">
             {props.name}
           </Text>
-          <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
+          <Text size={18} weight="bold" transform="uppercase" color="#9E9E9E">
             {props.date}
           </Text>
         </Col>
@@ -41,7 +42,7 @@ function Card1(props) {
         <Row>
           <Col>
             <Col>
-              <Text color="#d1d1d1" size={12}>
+              <Text color="#d1d1d1" size={18} className="break-all">
                 {props.des}
               </Text>
             </Col>
