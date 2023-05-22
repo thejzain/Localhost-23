@@ -1,6 +1,8 @@
+
 export default function Footer() {
+    
   return (
-    <div className="w-screen saturate-0 flex gap-5 justify-center mt-20 mb-10">
+    <div className="w-screen saturate-0 flex gap-5 justify-center mt-20 mb-10 ">
       <div>
         <img
           
