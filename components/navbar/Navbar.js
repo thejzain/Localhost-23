@@ -3,14 +3,16 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 
-import { signIn, useSession } from "next-auth/react";
+import { Dropdown, Avatar } from "@nextui-org/react";
+
+import { signIn, signOut, useSession } from "next-auth/react";
 
 const Navbar = (props) => {
   const { data: session, status } = useSession();
 
   useEffect(() => {
     console.log(session);
-  });
+  },[session]);
   const [enabled, setEnabled] = useState(false);
   const navItems = [
     {
@@ -57,13 +59,23 @@ const Navbar = (props) => {
         <div className="my-auto font-bold text-xl">Brand</div>
         <div className="toggleswitch flex my-auto gap-4">
           {session ? (
-            <div onClick={() => router.push("/profile")}>
-              <img
-                src={session.user?.image}
-                className="rounded-full "
-                width={50}
-              />
-            </div>
+            <Dropdown>
+              <Dropdown.Trigger>
+              <Avatar
+              bordered
+              size="xl"
+              as="button"
+              color="gradient"
+              src={session.user?.image}
+            />
+              </Dropdown.Trigger>
+              <Dropdown.Menu aria-label="Static Actions">
+                <Dropdown.Item>
+                  <div onClick={() => router.push("/profile")}>Profile</div>
+                </Dropdown.Item>
+                <Dropdown.Item color="error"><div onClick={()=>signOut()}>Signout</div></Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           ) : (
             <button onClick={(e) => handleSignin(e)}>Login</button>
           )}

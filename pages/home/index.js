@@ -1,7 +1,11 @@
 import Carousel from "@/components/carousel";
 import Head from "next/head";
+import { useSession } from "next-auth/react";
+import AboutUs from "@/components/about";
 
 export default function Home() {
+  const session = useSession();
+  console.log(session)
   return (
     <>
       <Head>
@@ -14,6 +18,7 @@ export default function Home() {
         <div>
           <Carousel />
         </div>
+        <div className="w-screen grid place-items-center"><AboutUs/></div>
       </div>
     </>
   );

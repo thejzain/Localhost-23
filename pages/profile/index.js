@@ -89,6 +89,6 @@ export default function Profile() {
       </>
     );
   } else {
-    return <>signin</>;
+    return <div className="grid place-items-center h-screen text-4xl">signin</div>;
   }
 }

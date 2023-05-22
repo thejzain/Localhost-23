@@ -5,9 +5,10 @@ import events from "@/contents/events";
 import "swiper/css";
 import "swiper/css/pagination";
 import Card1 from "./card";
-import { randInt } from "three/src/math/MathUtils";
 
 export default function Carousel() {
+  
+
   return (
     <>
       <Swiper
