@@ -30,6 +30,23 @@ export default async function handler(req, res) {
             return res.json({ success: true, user: newuser });
           }
         }
+        case 1: {
+          const { email, college, phone, batch, department, csimember } =
+            req.body;
+          const user = await prisma.user.update({
+            where: {
+              email: email,
+            },
+            data: {
+              college: college,
+              phone: phone,
+              batch: batch,
+              department: department,
+              csimember: csimember,
+            },
+          });
+          res.json({ success: true });
+        }
       }
     } catch (err) {
       // console.log(err);
