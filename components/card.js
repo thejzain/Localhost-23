@@ -12,10 +12,16 @@ function Card1(props) {
     >
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
-          <Text color="white" className="text-3xl">
+          <Text color="white" className="text-4xl font-pixel">
             {props.name}
           </Text>
-          <Text size={18} weight="bold" transform="uppercase" color="#9E9E9E">
+          <Text
+            size={18}
+            weight="bold"
+            transform="uppercase"
+            color="#9E9E9E"
+            className="font-pixel"
+          >
             {props.date}
           </Text>
         </Col>
@@ -42,7 +48,7 @@ function Card1(props) {
         <Row>
           <Col>
             <Col>
-              <Text color="#d1d1d1" size={18} className="break-all">
+              <Text color="#d1d1d1" size={18} className="break-all font-pixel">
                 {props.des}
               </Text>
             </Col>

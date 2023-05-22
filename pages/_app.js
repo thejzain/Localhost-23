@@ -1,15 +1,24 @@
 import "@/styles/globals.css";
 import { SessionProvider } from "next-auth/react";
-import { SSRProvider } from "@react-aria/ssr";
 import Layout from "./layout/layout";
-import { NextUIProvider } from "@nextui-org/react";
+import { createTheme, NextUIProvider, Text } from "@nextui-org/react";
 
 export default function App({ Component, pageProps, session }) {
+  const theme = createTheme({
+    type: "dark",
+    theme: {
+      fonts: {
+        mono: "VT323",
+      },
+    },
+  });
   return (
     <SessionProvider session={pageProps.session}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <NextUIProvider theme={theme}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </NextUIProvider>
     </SessionProvider>
   );
 }
