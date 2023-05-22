@@ -11,7 +11,7 @@ export default NextAuth({
   ],
   session: {
     jwt: true,
-    maxAge: 60 * 60,
+    maxAge: 30 * 24 * 60 * 60
   },
   jwt: {
     secret: process.env.NEXTSECRET,
@@ -25,11 +25,11 @@ export default NextAuth({
       return token;
     },
     async session({ session, token, user }) {
-      // console.log(token.token.user)
       const res = await axios.post(process.env.BACKEND + "/api/user", {
         user: token.token.user,
         option: 0,
       });
+      // console.log(res.data)
       if (res.data.success === true) {
         return {
           ...session,

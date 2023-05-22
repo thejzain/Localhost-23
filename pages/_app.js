@@ -13,7 +13,7 @@ export default function App({ Component, pageProps, session }) {
     },
   });
   return (
-    <SessionProvider session={pageProps.session}>
+    <SessionProvider session={session}>
       <NextUIProvider theme={theme}>
         <Layout>
           <Component {...pageProps} />
