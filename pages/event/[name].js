@@ -38,7 +38,7 @@ export default function EventPage({ eventdata }) {
             <img src={eventdata?.img}></img>
           </div>
         </div>
-        <div className="grid grid-rows-2 justify-center">
+        <div className="grid md:grid-rows-2 justify-center">
           <div className="mt-10 md:mt-0">
             <div className="text-6xl text-center pt-[10vh]">
               {eventdata?.name}
@@ -65,7 +65,7 @@ export default function EventPage({ eventdata }) {
             </div>
           </div>
 
-          <div className="md:pt-[50vh] pt-[10vh] ">
+          <div className="md:pt-[50vh]  ">
             <div>
               <Input
                 ref={upiref}
