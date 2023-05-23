@@ -1,4 +1,6 @@
 import "@/styles/globals.css";
+import "@/styles/wave.css";
+
 import { SessionProvider } from "next-auth/react";
 import Layout from "./layout/layout";
 import { createTheme, NextUIProvider, Text } from "@nextui-org/react";
