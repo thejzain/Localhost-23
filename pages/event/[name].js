@@ -32,8 +32,8 @@ export default function EventPage({ eventdata }) {
       <Head>
         <title>{eventdata?.name}</title>
       </Head>
-      <div className="h-[150vh] md:h-screen grid md:grid-cols-2 grid-rows-2">
-        <div className="h-screen grid place-items-center content-center ">
+      <div className="h-[150vh] md:h-screen grid md:grid-cols-2 grid-rows-2 ">
+        <div className="h-screen grid place-items-center content-center z-10">
           <div>
             <img src={eventdata?.img}></img>
           </div>
@@ -68,12 +68,13 @@ export default function EventPage({ eventdata }) {
           <div className="md:pt-[50vh]  ">
             <div>
               <Input
+              
                 ref={upiref}
                 size="xl"
                 placeholder="UPI Transaction ID"
                 color="primary"
                 bordered
-                className="text-white "
+                className="text-white z-20"
               />
             </div>
             <Spacer y={1} />
