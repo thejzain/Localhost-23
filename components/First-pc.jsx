@@ -6,6 +6,7 @@ Command: npx gltfjsx@6.1.4 public/models/first-pc.glb
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
+
 export function FirstPc(props) {
   const { nodes, materials } = useGLTF("./models/first-pc.glb");
   return (

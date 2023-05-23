@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import { Experiece } from "@/components/experience";
 import { Canvas } from "@react-three/fiber";
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="h-screen bg-slate-700">
+        <div className="h-screen ">
           <Canvas
             size={[`2000px`, `3000px`]}
             style={{ width: `100%`, height: `100%`, position: `relative` }}

@@ -33,14 +33,14 @@ export default function Profile() {
         <Head>
           <title>Profile</title>
         </Head>
-        <div className="text-center text-3xl pt-[10vh]">profile</div>
+        <div className="text-center text-3xl pt-[10vh] ">profile</div>
         <div className="grid  place-items-center p-10">
           <Avatar src={user?.image} size="xl"></Avatar>
           <div className="text-3xl">{user?.username}</div>
           <div className="text-2xl opacity-80">{user?.email}</div>
         </div>
         <div className="w-screen grid justify-center place-items-center">
-          <div className="grid md:grid-cols-2 w-[50vw] gap-10">
+          <div className="grid md:grid-cols-2 w-[50vw] gap-10 z-20">
             <Input
               ref={college}
               underlined

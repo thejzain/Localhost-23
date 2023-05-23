@@ -8,13 +8,15 @@ export default function Layout({ children }) {
   if (router.asPath != "/") {
     return (
       <div className="bg-black text-white font-pixel ">
-        <Background />
         <Navbar />
-        <div className="pb-10">{children}</div>
+        <div className="pb-10 ">{children}</div>
         <Footer />
+        <div className="h-screen w-screen fixed top-0 ">
+          <Background />
+        </div>
       </div>
     );
   } else {
-    return <div className="bg-black text-white font-pixel ">{children}</div>;
+    return <div className="bg-black text-white font-pixel "> {children}</div>;
   }
 }

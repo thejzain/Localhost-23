@@ -2,13 +2,13 @@
 
 import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
-
 import { Dropdown, Avatar } from "@nextui-org/react";
-
 import { signIn, signOut, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
 
 const Navbar = (props) => {
   const { data: session, status } = useSession();
+  const router = useRouter();
 
   useEffect(() => {
     console.log(session);
@@ -35,15 +35,14 @@ const Navbar = (props) => {
     e.preventDefault();
     signIn();
   };
-
   return (
-    <div className="w-full border top-0 absolute z-10 bg-transparent flex justify-between px-6">
+    <div className="w-full border top-0 absolute  bg-transparent flex justify-between px-6 z-20">
       <div className="items grid ">
         <ul>
           {navItems.map((item) => {
             return (
               <li
-                className={`${styles.item} hover:cursor-pointer`}
+                className={`${styles.item} hover:cursor-pointer `}
                 key={item.key}
                 onClick={() => {
                   router.push(item.link);
