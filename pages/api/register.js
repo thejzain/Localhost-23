@@ -1,20 +1,31 @@
 import prisma from "@/libs/prisma";
-import { getSession } from "next-auth/react";
 
-export default async function handler(req, res) {
-  const session = await getSession();
-  if (!session) {
-    console.log("no sess");
-  }
-  const data = req.body;
+export default async function Register(req, res) {
   if (req.method == "POST") {
-    prisma.user.update({
-      where: { email: data.email },
-      data: {
-        name: data.event,
-      },
-    });
-    console.log(data);
-    res.json({ test: "ok" });
+    try {
+      const body = req.body;
+      const { email, event } = body;
+      const user = await prisma.user.findUnique({ where: { email: email } });
+      const { events } = user;
+      const exist = events.find((name) => name === event);
+      if (!exist) {
+        events.push(event);
+        await prisma.user.update({
+          where: {
+            email: body.email,
+          },
+          data: { events: events },
+        });
+        await prisma.transactions.create({
+          data: body,
+        });
+        res.json({ success: true });
+      } else {
+        res.json({ success: false });
+      }
+    } catch (err) {
+      console.log(err);
+      res.json({ success: false });
+    }
   }
 }

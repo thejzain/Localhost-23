@@ -1,0 +1,5420 @@
+.dots {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  perspective: 600px;
+  transform-style: preserve-3d;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  margin: 32px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.1;
+  align-self: center;
+  transform: scale(0.8) translate3d(0, 0, 0);
+}
+
+@-webkit-keyframes dot-1 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.1666666667px);
+  }
+}
+
+@keyframes dot-1 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.1666666667px);
+  }
+}
+@-webkit-keyframes dot-2 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.3333333333px);
+  }
+}
+@keyframes dot-2 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.3333333333px);
+  }
+}
+@-webkit-keyframes dot-3 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.5px);
+  }
+}
+@keyframes dot-3 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.5px);
+  }
+}
+@-webkit-keyframes dot-4 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.6666666667px);
+  }
+}
+@keyframes dot-4 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.6666666667px);
+  }
+}
+@-webkit-keyframes dot-5 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.8333333333px);
+  }
+}
+@keyframes dot-5 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 0.8333333333px);
+  }
+}
+@-webkit-keyframes dot-6 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1px);
+  }
+}
+@keyframes dot-6 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1px);
+  }
+}
+@-webkit-keyframes dot-7 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.1666666667px);
+  }
+}
+@keyframes dot-7 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.1666666667px);
+  }
+}
+@-webkit-keyframes dot-8 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.3333333333px);
+  }
+}
+@keyframes dot-8 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.3333333333px);
+  }
+}
+@-webkit-keyframes dot-9 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.5px);
+  }
+}
+@keyframes dot-9 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.5px);
+  }
+}
+@-webkit-keyframes dot-10 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.6666666667px);
+  }
+}
+@keyframes dot-10 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.6666666667px);
+  }
+}
+@-webkit-keyframes dot-11 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.8333333333px);
+  }
+}
+@keyframes dot-11 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 1.8333333333px);
+  }
+}
+@-webkit-keyframes dot-12 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2px);
+  }
+}
+@keyframes dot-12 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2px);
+  }
+}
+@-webkit-keyframes dot-13 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.1666666667px);
+  }
+}
+@keyframes dot-13 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.1666666667px);
+  }
+}
+@-webkit-keyframes dot-14 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.3333333333px);
+  }
+}
+@keyframes dot-14 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.3333333333px);
+  }
+}
+@-webkit-keyframes dot-15 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.5px);
+  }
+}
+@keyframes dot-15 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.5px);
+  }
+}
+@-webkit-keyframes dot-16 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.6666666667px);
+  }
+}
+@keyframes dot-16 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.6666666667px);
+  }
+}
+@-webkit-keyframes dot-17 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.8333333333px);
+  }
+}
+@keyframes dot-17 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 2.8333333333px);
+  }
+}
+@-webkit-keyframes dot-18 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3px);
+  }
+}
+@keyframes dot-18 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3px);
+  }
+}
+@-webkit-keyframes dot-19 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.1666666667px);
+  }
+}
+@keyframes dot-19 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.1666666667px);
+  }
+}
+@-webkit-keyframes dot-20 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.3333333333px);
+  }
+}
+@keyframes dot-20 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.3333333333px);
+  }
+}
+@-webkit-keyframes dot-21 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.5px);
+  }
+}
+@keyframes dot-21 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.5px);
+  }
+}
+@-webkit-keyframes dot-22 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.6666666667px);
+  }
+}
+@keyframes dot-22 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.6666666667px);
+  }
+}
+@-webkit-keyframes dot-23 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.8333333333px);
+  }
+}
+@keyframes dot-23 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 3.8333333333px);
+  }
+}
+@-webkit-keyframes dot-24 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4px);
+  }
+}
+@keyframes dot-24 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4px);
+  }
+}
+@-webkit-keyframes dot-25 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.1666666667px);
+  }
+}
+@keyframes dot-25 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.1666666667px);
+  }
+}
+@-webkit-keyframes dot-26 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.3333333333px);
+  }
+}
+@keyframes dot-26 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.3333333333px);
+  }
+}
+@-webkit-keyframes dot-27 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.5px);
+  }
+}
+@keyframes dot-27 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.5px);
+  }
+}
+@-webkit-keyframes dot-28 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.6666666667px);
+  }
+}
+@keyframes dot-28 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.6666666667px);
+  }
+}
+@-webkit-keyframes dot-29 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.8333333333px);
+  }
+}
+@keyframes dot-29 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 4.8333333333px);
+  }
+}
+@-webkit-keyframes dot-30 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5px);
+  }
+}
+@keyframes dot-30 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5px);
+  }
+}
+@-webkit-keyframes dot-31 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.1666666667px);
+  }
+}
+@keyframes dot-31 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.1666666667px);
+  }
+}
+@-webkit-keyframes dot-32 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.3333333333px);
+  }
+}
+@keyframes dot-32 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.3333333333px);
+  }
+}
+@-webkit-keyframes dot-33 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.5px);
+  }
+}
+@keyframes dot-33 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.5px);
+  }
+}
+@-webkit-keyframes dot-34 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.6666666667px);
+  }
+}
+@keyframes dot-34 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.6666666667px);
+  }
+}
+@-webkit-keyframes dot-35 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.8333333333px);
+  }
+}
+@keyframes dot-35 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 5.8333333333px);
+  }
+}
+@-webkit-keyframes dot-36 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6px);
+  }
+}
+@keyframes dot-36 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6px);
+  }
+}
+@-webkit-keyframes dot-37 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.1666666667px);
+  }
+}
+@keyframes dot-37 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.1666666667px);
+  }
+}
+@-webkit-keyframes dot-38 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.3333333333px);
+  }
+}
+@keyframes dot-38 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.3333333333px);
+  }
+}
+@-webkit-keyframes dot-39 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.5px);
+  }
+}
+@keyframes dot-39 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.5px);
+  }
+}
+@-webkit-keyframes dot-40 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.6666666667px);
+  }
+}
+@keyframes dot-40 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.6666666667px);
+  }
+}
+@-webkit-keyframes dot-41 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.8333333333px);
+  }
+}
+@keyframes dot-41 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 6.8333333333px);
+  }
+}
+@-webkit-keyframes dot-42 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7px);
+  }
+}
+@keyframes dot-42 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7px);
+  }
+}
+@-webkit-keyframes dot-43 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.1666666667px);
+  }
+}
+@keyframes dot-43 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.1666666667px);
+  }
+}
+@-webkit-keyframes dot-44 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.3333333333px);
+  }
+}
+@keyframes dot-44 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.3333333333px);
+  }
+}
+@-webkit-keyframes dot-45 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.5px);
+  }
+}
+@keyframes dot-45 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.5px);
+  }
+}
+@-webkit-keyframes dot-46 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.6666666667px);
+  }
+}
+@keyframes dot-46 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.6666666667px);
+  }
+}
+@-webkit-keyframes dot-47 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.8333333333px);
+  }
+}
+@keyframes dot-47 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 7.8333333333px);
+  }
+}
+@-webkit-keyframes dot-48 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8px);
+  }
+}
+@keyframes dot-48 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8px);
+  }
+}
+@-webkit-keyframes dot-49 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.1666666667px);
+  }
+}
+@keyframes dot-49 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.1666666667px);
+  }
+}
+@-webkit-keyframes dot-50 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.3333333333px);
+  }
+}
+@keyframes dot-50 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.3333333333px);
+  }
+}
+@-webkit-keyframes dot-51 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.5px);
+  }
+}
+@keyframes dot-51 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.5px);
+  }
+}
+@-webkit-keyframes dot-52 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.6666666667px);
+  }
+}
+@keyframes dot-52 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.6666666667px);
+  }
+}
+@-webkit-keyframes dot-53 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.8333333333px);
+  }
+}
+@keyframes dot-53 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 8.8333333333px);
+  }
+}
+@-webkit-keyframes dot-54 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9px);
+  }
+}
+@keyframes dot-54 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9px);
+  }
+}
+@-webkit-keyframes dot-55 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.1666666667px);
+  }
+}
+@keyframes dot-55 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.1666666667px);
+  }
+}
+@-webkit-keyframes dot-56 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.3333333333px);
+  }
+}
+@keyframes dot-56 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.3333333333px);
+  }
+}
+@-webkit-keyframes dot-57 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.5px);
+  }
+}
+@keyframes dot-57 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.5px);
+  }
+}
+@-webkit-keyframes dot-58 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.6666666667px);
+  }
+}
+@keyframes dot-58 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.6666666667px);
+  }
+}
+@-webkit-keyframes dot-59 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.8333333333px);
+  }
+}
+@keyframes dot-59 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 9.8333333333px);
+  }
+}
+@-webkit-keyframes dot-60 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10px);
+  }
+}
+@keyframes dot-60 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10px);
+  }
+}
+@-webkit-keyframes dot-61 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.1666666667px);
+  }
+}
+@keyframes dot-61 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.1666666667px);
+  }
+}
+@-webkit-keyframes dot-62 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.3333333333px);
+  }
+}
+@keyframes dot-62 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.3333333333px);
+  }
+}
+@-webkit-keyframes dot-63 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.5px);
+  }
+}
+@keyframes dot-63 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.5px);
+  }
+}
+@-webkit-keyframes dot-64 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.6666666667px);
+  }
+}
+@keyframes dot-64 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.6666666667px);
+  }
+}
+@-webkit-keyframes dot-65 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.8333333333px);
+  }
+}
+@keyframes dot-65 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 10.8333333333px);
+  }
+}
+@-webkit-keyframes dot-66 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11px);
+  }
+}
+@keyframes dot-66 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11px);
+  }
+}
+@-webkit-keyframes dot-67 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.1666666667px);
+  }
+}
+@keyframes dot-67 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.1666666667px);
+  }
+}
+@-webkit-keyframes dot-68 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.3333333333px);
+  }
+}
+@keyframes dot-68 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.3333333333px);
+  }
+}
+@-webkit-keyframes dot-69 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.5px);
+  }
+}
+@keyframes dot-69 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.5px);
+  }
+}
+@-webkit-keyframes dot-70 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.6666666667px);
+  }
+}
+@keyframes dot-70 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.6666666667px);
+  }
+}
+@-webkit-keyframes dot-71 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.8333333333px);
+  }
+}
+@keyframes dot-71 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 11.8333333333px);
+  }
+}
+@-webkit-keyframes dot-72 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12px);
+  }
+}
+@keyframes dot-72 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12px);
+  }
+}
+@-webkit-keyframes dot-73 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.1666666667px);
+  }
+}
+@keyframes dot-73 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.1666666667px);
+  }
+}
+@-webkit-keyframes dot-74 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.3333333333px);
+  }
+}
+@keyframes dot-74 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.3333333333px);
+  }
+}
+@-webkit-keyframes dot-75 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.5px);
+  }
+}
+@keyframes dot-75 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.5px);
+  }
+}
+@-webkit-keyframes dot-76 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.6666666667px);
+  }
+}
+@keyframes dot-76 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.6666666667px);
+  }
+}
+@-webkit-keyframes dot-77 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.8333333333px);
+  }
+}
+@keyframes dot-77 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 12.8333333333px);
+  }
+}
+@-webkit-keyframes dot-78 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13px);
+  }
+}
+@keyframes dot-78 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13px);
+  }
+}
+@-webkit-keyframes dot-79 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.1666666667px);
+  }
+}
+@keyframes dot-79 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.1666666667px);
+  }
+}
+@-webkit-keyframes dot-80 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.3333333333px);
+  }
+}
+@keyframes dot-80 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.3333333333px);
+  }
+}
+@-webkit-keyframes dot-81 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.5px);
+  }
+}
+@keyframes dot-81 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.5px);
+  }
+}
+@-webkit-keyframes dot-82 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.6666666667px);
+  }
+}
+@keyframes dot-82 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.6666666667px);
+  }
+}
+@-webkit-keyframes dot-83 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.8333333333px);
+  }
+}
+@keyframes dot-83 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 13.8333333333px);
+  }
+}
+@-webkit-keyframes dot-84 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14px);
+  }
+}
+@keyframes dot-84 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14px);
+  }
+}
+@-webkit-keyframes dot-85 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.1666666667px);
+  }
+}
+@keyframes dot-85 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.1666666667px);
+  }
+}
+@-webkit-keyframes dot-86 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.3333333333px);
+  }
+}
+@keyframes dot-86 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.3333333333px);
+  }
+}
+@-webkit-keyframes dot-87 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.5px);
+  }
+}
+@keyframes dot-87 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.5px);
+  }
+}
+@-webkit-keyframes dot-88 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.6666666667px);
+  }
+}
+@keyframes dot-88 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.6666666667px);
+  }
+}
+@-webkit-keyframes dot-89 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.8333333333px);
+  }
+}
+@keyframes dot-89 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 14.8333333333px);
+  }
+}
+@-webkit-keyframes dot-90 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15px);
+  }
+}
+@keyframes dot-90 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15px);
+  }
+}
+@-webkit-keyframes dot-91 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.1666666667px);
+  }
+}
+@keyframes dot-91 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.1666666667px);
+  }
+}
+@-webkit-keyframes dot-92 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.3333333333px);
+  }
+}
+@keyframes dot-92 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.3333333333px);
+  }
+}
+@-webkit-keyframes dot-93 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.5px);
+  }
+}
+@keyframes dot-93 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.5px);
+  }
+}
+@-webkit-keyframes dot-94 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.6666666667px);
+  }
+}
+@keyframes dot-94 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.6666666667px);
+  }
+}
+@-webkit-keyframes dot-95 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.8333333333px);
+  }
+}
+@keyframes dot-95 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 15.8333333333px);
+  }
+}
+@-webkit-keyframes dot-96 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16px);
+  }
+}
+@keyframes dot-96 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16px);
+  }
+}
+@-webkit-keyframes dot-97 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.1666666667px);
+  }
+}
+@keyframes dot-97 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.1666666667px);
+  }
+}
+@-webkit-keyframes dot-98 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.3333333333px);
+  }
+}
+@keyframes dot-98 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.3333333333px);
+  }
+}
+@-webkit-keyframes dot-99 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.5px);
+  }
+}
+@keyframes dot-99 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.5px);
+  }
+}
+@-webkit-keyframes dot-100 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.6666666667px);
+  }
+}
+@keyframes dot-100 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.6666666667px);
+  }
+}
+@-webkit-keyframes dot-101 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.8333333333px);
+  }
+}
+@keyframes dot-101 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 16.8333333333px);
+  }
+}
+@-webkit-keyframes dot-102 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17px);
+  }
+}
+@keyframes dot-102 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17px);
+  }
+}
+@-webkit-keyframes dot-103 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.1666666667px);
+  }
+}
+@keyframes dot-103 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.1666666667px);
+  }
+}
+@-webkit-keyframes dot-104 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.3333333333px);
+  }
+}
+@keyframes dot-104 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.3333333333px);
+  }
+}
+@-webkit-keyframes dot-105 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.5px);
+  }
+}
+@keyframes dot-105 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.5px);
+  }
+}
+@-webkit-keyframes dot-106 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.6666666667px);
+  }
+}
+@keyframes dot-106 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.6666666667px);
+  }
+}
+@-webkit-keyframes dot-107 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.8333333333px);
+  }
+}
+@keyframes dot-107 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 17.8333333333px);
+  }
+}
+@-webkit-keyframes dot-108 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18px);
+  }
+}
+@keyframes dot-108 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18px);
+  }
+}
+@-webkit-keyframes dot-109 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.1666666667px);
+  }
+}
+@keyframes dot-109 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.1666666667px);
+  }
+}
+@-webkit-keyframes dot-110 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.3333333333px);
+  }
+}
+@keyframes dot-110 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.3333333333px);
+  }
+}
+@-webkit-keyframes dot-111 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.5px);
+  }
+}
+@keyframes dot-111 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.5px);
+  }
+}
+@-webkit-keyframes dot-112 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.6666666667px);
+  }
+}
+@keyframes dot-112 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.6666666667px);
+  }
+}
+@-webkit-keyframes dot-113 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.8333333333px);
+  }
+}
+@keyframes dot-113 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 18.8333333333px);
+  }
+}
+@-webkit-keyframes dot-114 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19px);
+  }
+}
+@keyframes dot-114 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19px);
+  }
+}
+@-webkit-keyframes dot-115 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.1666666667px);
+  }
+}
+@keyframes dot-115 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.1666666667px);
+  }
+}
+@-webkit-keyframes dot-116 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.3333333333px);
+  }
+}
+@keyframes dot-116 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.3333333333px);
+  }
+}
+@-webkit-keyframes dot-117 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.5px);
+  }
+}
+@keyframes dot-117 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.5px);
+  }
+}
+@-webkit-keyframes dot-118 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.6666666667px);
+  }
+}
+@keyframes dot-118 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.6666666667px);
+  }
+}
+@-webkit-keyframes dot-119 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.8333333333px);
+  }
+}
+@keyframes dot-119 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 19.8333333333px);
+  }
+}
+@-webkit-keyframes dot-120 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20px);
+  }
+}
+@keyframes dot-120 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20px);
+  }
+}
+@-webkit-keyframes dot-121 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.1666666667px);
+  }
+}
+@keyframes dot-121 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.1666666667px);
+  }
+}
+@-webkit-keyframes dot-122 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.3333333333px);
+  }
+}
+@keyframes dot-122 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.3333333333px);
+  }
+}
+@-webkit-keyframes dot-123 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.5px);
+  }
+}
+@keyframes dot-123 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.5px);
+  }
+}
+@-webkit-keyframes dot-124 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.6666666667px);
+  }
+}
+@keyframes dot-124 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.6666666667px);
+  }
+}
+@-webkit-keyframes dot-125 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.8333333333px);
+  }
+}
+@keyframes dot-125 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 20.8333333333px);
+  }
+}
+@-webkit-keyframes dot-126 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21px);
+  }
+}
+@keyframes dot-126 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21px);
+  }
+}
+@-webkit-keyframes dot-127 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.1666666667px);
+  }
+}
+@keyframes dot-127 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.1666666667px);
+  }
+}
+@-webkit-keyframes dot-128 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.3333333333px);
+  }
+}
+@keyframes dot-128 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.3333333333px);
+  }
+}
+@-webkit-keyframes dot-129 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.5px);
+  }
+}
+@keyframes dot-129 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.5px);
+  }
+}
+@-webkit-keyframes dot-130 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.6666666667px);
+  }
+}
+@keyframes dot-130 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.6666666667px);
+  }
+}
+@-webkit-keyframes dot-131 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.8333333333px);
+  }
+}
+@keyframes dot-131 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 21.8333333333px);
+  }
+}
+@-webkit-keyframes dot-132 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22px);
+  }
+}
+@keyframes dot-132 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22px);
+  }
+}
+@-webkit-keyframes dot-133 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.1666666667px);
+  }
+}
+@keyframes dot-133 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.1666666667px);
+  }
+}
+@-webkit-keyframes dot-134 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.3333333333px);
+  }
+}
+@keyframes dot-134 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.3333333333px);
+  }
+}
+@-webkit-keyframes dot-135 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.5px);
+  }
+}
+@keyframes dot-135 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.5px);
+  }
+}
+@-webkit-keyframes dot-136 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.6666666667px);
+  }
+}
+@keyframes dot-136 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.6666666667px);
+  }
+}
+@-webkit-keyframes dot-137 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.8333333333px);
+  }
+}
+@keyframes dot-137 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 22.8333333333px);
+  }
+}
+@-webkit-keyframes dot-138 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23px);
+  }
+}
+@keyframes dot-138 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23px);
+  }
+}
+@-webkit-keyframes dot-139 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.1666666667px);
+  }
+}
+@keyframes dot-139 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.1666666667px);
+  }
+}
+@-webkit-keyframes dot-140 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.3333333333px);
+  }
+}
+@keyframes dot-140 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.3333333333px);
+  }
+}
+@-webkit-keyframes dot-141 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.5px);
+  }
+}
+@keyframes dot-141 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.5px);
+  }
+}
+@-webkit-keyframes dot-142 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.6666666667px);
+  }
+}
+@keyframes dot-142 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.6666666667px);
+  }
+}
+@-webkit-keyframes dot-143 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.8333333333px);
+  }
+}
+@keyframes dot-143 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 23.8333333333px);
+  }
+}
+@-webkit-keyframes dot-144 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24px);
+  }
+}
+@keyframes dot-144 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24px);
+  }
+}
+@-webkit-keyframes dot-145 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.1666666667px);
+  }
+}
+@keyframes dot-145 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.1666666667px);
+  }
+}
+@-webkit-keyframes dot-146 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.3333333333px);
+  }
+}
+@keyframes dot-146 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.3333333333px);
+  }
+}
+@-webkit-keyframes dot-147 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.5px);
+  }
+}
+@keyframes dot-147 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.5px);
+  }
+}
+@-webkit-keyframes dot-148 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.6666666667px);
+  }
+}
+@keyframes dot-148 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.6666666667px);
+  }
+}
+@-webkit-keyframes dot-149 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.8333333333px);
+  }
+}
+@keyframes dot-149 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 24.8333333333px);
+  }
+}
+@-webkit-keyframes dot-150 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25px);
+  }
+}
+@keyframes dot-150 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25px);
+  }
+}
+@-webkit-keyframes dot-151 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.1666666667px);
+  }
+}
+@keyframes dot-151 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.1666666667px);
+  }
+}
+@-webkit-keyframes dot-152 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.3333333333px);
+  }
+}
+@keyframes dot-152 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.3333333333px);
+  }
+}
+@-webkit-keyframes dot-153 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.5px);
+  }
+}
+@keyframes dot-153 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.5px);
+  }
+}
+@-webkit-keyframes dot-154 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.6666666667px);
+  }
+}
+@keyframes dot-154 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.6666666667px);
+  }
+}
+@-webkit-keyframes dot-155 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.8333333333px);
+  }
+}
+@keyframes dot-155 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 25.8333333333px);
+  }
+}
+@-webkit-keyframes dot-156 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26px);
+  }
+}
+@keyframes dot-156 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26px);
+  }
+}
+@-webkit-keyframes dot-157 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.1666666667px);
+  }
+}
+@keyframes dot-157 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.1666666667px);
+  }
+}
+@-webkit-keyframes dot-158 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.3333333333px);
+  }
+}
+@keyframes dot-158 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.3333333333px);
+  }
+}
+@-webkit-keyframes dot-159 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.5px);
+  }
+}
+@keyframes dot-159 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.5px);
+  }
+}
+@-webkit-keyframes dot-160 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.6666666667px);
+  }
+}
+@keyframes dot-160 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.6666666667px);
+  }
+}
+@-webkit-keyframes dot-161 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.8333333333px);
+  }
+}
+@keyframes dot-161 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 26.8333333333px);
+  }
+}
+@-webkit-keyframes dot-162 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27px);
+  }
+}
+@keyframes dot-162 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27px);
+  }
+}
+@-webkit-keyframes dot-163 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.1666666667px);
+  }
+}
+@keyframes dot-163 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.1666666667px);
+  }
+}
+@-webkit-keyframes dot-164 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.3333333333px);
+  }
+}
+@keyframes dot-164 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.3333333333px);
+  }
+}
+@-webkit-keyframes dot-165 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.5px);
+  }
+}
+@keyframes dot-165 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.5px);
+  }
+}
+@-webkit-keyframes dot-166 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.6666666667px);
+  }
+}
+@keyframes dot-166 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.6666666667px);
+  }
+}
+@-webkit-keyframes dot-167 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.8333333333px);
+  }
+}
+@keyframes dot-167 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 27.8333333333px);
+  }
+}
+@-webkit-keyframes dot-168 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28px);
+  }
+}
+@keyframes dot-168 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28px);
+  }
+}
+@-webkit-keyframes dot-169 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.1666666667px);
+  }
+}
+@keyframes dot-169 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.1666666667px);
+  }
+}
+@-webkit-keyframes dot-170 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.3333333333px);
+  }
+}
+@keyframes dot-170 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.3333333333px);
+  }
+}
+@-webkit-keyframes dot-171 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.5px);
+  }
+}
+@keyframes dot-171 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.5px);
+  }
+}
+@-webkit-keyframes dot-172 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.6666666667px);
+  }
+}
+@keyframes dot-172 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.6666666667px);
+  }
+}
+@-webkit-keyframes dot-173 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.8333333333px);
+  }
+}
+@keyframes dot-173 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 28.8333333333px);
+  }
+}
+@-webkit-keyframes dot-174 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29px);
+  }
+}
+@keyframes dot-174 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29px);
+  }
+}
+@-webkit-keyframes dot-175 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.1666666667px);
+  }
+}
+@keyframes dot-175 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.1666666667px);
+  }
+}
+@-webkit-keyframes dot-176 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.3333333333px);
+  }
+}
+@keyframes dot-176 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.3333333333px);
+  }
+}
+@-webkit-keyframes dot-177 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.5px);
+  }
+}
+@keyframes dot-177 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.5px);
+  }
+}
+@-webkit-keyframes dot-178 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.6666666667px);
+  }
+}
+@keyframes dot-178 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.6666666667px);
+  }
+}
+@-webkit-keyframes dot-179 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.8333333333px);
+  }
+}
+@keyframes dot-179 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 29.8333333333px);
+  }
+}
+@-webkit-keyframes dot-180 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30px);
+  }
+}
+@keyframes dot-180 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30px);
+  }
+}
+@-webkit-keyframes dot-181 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.1666666667px);
+  }
+}
+@keyframes dot-181 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.1666666667px);
+  }
+}
+@-webkit-keyframes dot-182 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.3333333333px);
+  }
+}
+@keyframes dot-182 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.3333333333px);
+  }
+}
+@-webkit-keyframes dot-183 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.5px);
+  }
+}
+@keyframes dot-183 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.5px);
+  }
+}
+@-webkit-keyframes dot-184 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.6666666667px);
+  }
+}
+@keyframes dot-184 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.6666666667px);
+  }
+}
+@-webkit-keyframes dot-185 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.8333333333px);
+  }
+}
+@keyframes dot-185 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 30.8333333333px);
+  }
+}
+@-webkit-keyframes dot-186 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31px);
+  }
+}
+@keyframes dot-186 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31px);
+  }
+}
+@-webkit-keyframes dot-187 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.1666666667px);
+  }
+}
+@keyframes dot-187 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.1666666667px);
+  }
+}
+@-webkit-keyframes dot-188 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.3333333333px);
+  }
+}
+@keyframes dot-188 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.3333333333px);
+  }
+}
+@-webkit-keyframes dot-189 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.5px);
+  }
+}
+@keyframes dot-189 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.5px);
+  }
+}
+@-webkit-keyframes dot-190 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.6666666667px);
+  }
+}
+@keyframes dot-190 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.6666666667px);
+  }
+}
+@-webkit-keyframes dot-191 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.8333333333px);
+  }
+}
+@keyframes dot-191 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 31.8333333333px);
+  }
+}
+@-webkit-keyframes dot-192 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32px);
+  }
+}
+@keyframes dot-192 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32px);
+  }
+}
+@-webkit-keyframes dot-193 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.1666666667px);
+  }
+}
+@keyframes dot-193 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.1666666667px);
+  }
+}
+@-webkit-keyframes dot-194 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.3333333333px);
+  }
+}
+@keyframes dot-194 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.3333333333px);
+  }
+}
+@-webkit-keyframes dot-195 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.5px);
+  }
+}
+@keyframes dot-195 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.5px);
+  }
+}
+@-webkit-keyframes dot-196 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.6666666667px);
+  }
+}
+@keyframes dot-196 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.6666666667px);
+  }
+}
+@-webkit-keyframes dot-197 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.8333333333px);
+  }
+}
+@keyframes dot-197 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 32.8333333333px);
+  }
+}
+@-webkit-keyframes dot-198 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33px);
+  }
+}
+@keyframes dot-198 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33px);
+  }
+}
+@-webkit-keyframes dot-199 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.1666666667px);
+  }
+}
+@keyframes dot-199 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.1666666667px);
+  }
+}
+@-webkit-keyframes dot-200 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.3333333333px);
+  }
+}
+@keyframes dot-200 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.3333333333px);
+  }
+}
+@-webkit-keyframes dot-201 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.5px);
+  }
+}
+@keyframes dot-201 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.5px);
+  }
+}
+@-webkit-keyframes dot-202 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.6666666667px);
+  }
+}
+@keyframes dot-202 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.6666666667px);
+  }
+}
+@-webkit-keyframes dot-203 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.8333333333px);
+  }
+}
+@keyframes dot-203 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 33.8333333333px);
+  }
+}
+@-webkit-keyframes dot-204 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34px);
+  }
+}
+@keyframes dot-204 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34px);
+  }
+}
+@-webkit-keyframes dot-205 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.1666666667px);
+  }
+}
+@keyframes dot-205 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.1666666667px);
+  }
+}
+@-webkit-keyframes dot-206 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.3333333333px);
+  }
+}
+@keyframes dot-206 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.3333333333px);
+  }
+}
+@-webkit-keyframes dot-207 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.5px);
+  }
+}
+@keyframes dot-207 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.5px);
+  }
+}
+@-webkit-keyframes dot-208 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.6666666667px);
+  }
+}
+@keyframes dot-208 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.6666666667px);
+  }
+}
+@-webkit-keyframes dot-209 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.8333333333px);
+  }
+}
+@keyframes dot-209 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 34.8333333333px);
+  }
+}
+@-webkit-keyframes dot-210 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35px);
+  }
+}
+@keyframes dot-210 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35px);
+  }
+}
+@-webkit-keyframes dot-211 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.1666666667px);
+  }
+}
+@keyframes dot-211 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.1666666667px);
+  }
+}
+@-webkit-keyframes dot-212 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.3333333333px);
+  }
+}
+@keyframes dot-212 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.3333333333px);
+  }
+}
+@-webkit-keyframes dot-213 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.5px);
+  }
+}
+@keyframes dot-213 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.5px);
+  }
+}
+@-webkit-keyframes dot-214 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.6666666667px);
+  }
+}
+@keyframes dot-214 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.6666666667px);
+  }
+}
+@-webkit-keyframes dot-215 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.8333333333px);
+  }
+}
+@keyframes dot-215 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 35.8333333333px);
+  }
+}
+@-webkit-keyframes dot-216 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36px);
+  }
+}
+@keyframes dot-216 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36px);
+  }
+}
+@-webkit-keyframes dot-217 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.1666666667px);
+  }
+}
+@keyframes dot-217 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.1666666667px);
+  }
+}
+@-webkit-keyframes dot-218 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.3333333333px);
+  }
+}
+@keyframes dot-218 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.3333333333px);
+  }
+}
+@-webkit-keyframes dot-219 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.5px);
+  }
+}
+@keyframes dot-219 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.5px);
+  }
+}
+@-webkit-keyframes dot-220 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.6666666667px);
+  }
+}
+@keyframes dot-220 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.6666666667px);
+  }
+}
+@-webkit-keyframes dot-221 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.8333333333px);
+  }
+}
+@keyframes dot-221 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 36.8333333333px);
+  }
+}
+@-webkit-keyframes dot-222 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37px);
+  }
+}
+@keyframes dot-222 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37px);
+  }
+}
+@-webkit-keyframes dot-223 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.1666666667px);
+  }
+}
+@keyframes dot-223 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.1666666667px);
+  }
+}
+@-webkit-keyframes dot-224 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.3333333333px);
+  }
+}
+@keyframes dot-224 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.3333333333px);
+  }
+}
+@-webkit-keyframes dot-225 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.5px);
+  }
+}
+@keyframes dot-225 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.5px);
+  }
+}
+@-webkit-keyframes dot-226 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.6666666667px);
+  }
+}
+@keyframes dot-226 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.6666666667px);
+  }
+}
+@-webkit-keyframes dot-227 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.8333333333px);
+  }
+}
+@keyframes dot-227 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 37.8333333333px);
+  }
+}
+@-webkit-keyframes dot-228 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38px);
+  }
+}
+@keyframes dot-228 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38px);
+  }
+}
+@-webkit-keyframes dot-229 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.1666666667px);
+  }
+}
+@keyframes dot-229 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.1666666667px);
+  }
+}
+@-webkit-keyframes dot-230 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.3333333333px);
+  }
+}
+@keyframes dot-230 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.3333333333px);
+  }
+}
+@-webkit-keyframes dot-231 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.5px);
+  }
+}
+@keyframes dot-231 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.5px);
+  }
+}
+@-webkit-keyframes dot-232 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.6666666667px);
+  }
+}
+@keyframes dot-232 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.6666666667px);
+  }
+}
+@-webkit-keyframes dot-233 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.8333333333px);
+  }
+}
+@keyframes dot-233 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 38.8333333333px);
+  }
+}
+@-webkit-keyframes dot-234 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39px);
+  }
+}
+@keyframes dot-234 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39px);
+  }
+}
+@-webkit-keyframes dot-235 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.1666666667px);
+  }
+}
+@keyframes dot-235 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.1666666667px);
+  }
+}
+@-webkit-keyframes dot-236 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.3333333333px);
+  }
+}
+@keyframes dot-236 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.3333333333px);
+  }
+}
+@-webkit-keyframes dot-237 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.5px);
+  }
+}
+@keyframes dot-237 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.5px);
+  }
+}
+@-webkit-keyframes dot-238 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.6666666667px);
+  }
+}
+@keyframes dot-238 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.6666666667px);
+  }
+}
+@-webkit-keyframes dot-239 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.8333333333px);
+  }
+}
+@keyframes dot-239 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 39.8333333333px);
+  }
+}
+@-webkit-keyframes dot-240 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40px);
+  }
+}
+@keyframes dot-240 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40px);
+  }
+}
+@-webkit-keyframes dot-241 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.1666666667px);
+  }
+}
+@keyframes dot-241 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.1666666667px);
+  }
+}
+@-webkit-keyframes dot-242 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.3333333333px);
+  }
+}
+@keyframes dot-242 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.3333333333px);
+  }
+}
+@-webkit-keyframes dot-243 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.5px);
+  }
+}
+@keyframes dot-243 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.5px);
+  }
+}
+@-webkit-keyframes dot-244 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.6666666667px);
+  }
+}
+@keyframes dot-244 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.6666666667px);
+  }
+}
+@-webkit-keyframes dot-245 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.8333333333px);
+  }
+}
+@keyframes dot-245 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 40.8333333333px);
+  }
+}
+@-webkit-keyframes dot-246 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41px);
+  }
+}
+@keyframes dot-246 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41px);
+  }
+}
+@-webkit-keyframes dot-247 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.1666666667px);
+  }
+}
+@keyframes dot-247 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.1666666667px);
+  }
+}
+@-webkit-keyframes dot-248 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.3333333333px);
+  }
+}
+@keyframes dot-248 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.3333333333px);
+  }
+}
+@-webkit-keyframes dot-249 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.5px);
+  }
+}
+@keyframes dot-249 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.5px);
+  }
+}
+@-webkit-keyframes dot-250 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.6666666667px);
+  }
+}
+@keyframes dot-250 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.6666666667px);
+  }
+}
+@-webkit-keyframes dot-251 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.8333333333px);
+  }
+}
+@keyframes dot-251 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 41.8333333333px);
+  }
+}
+@-webkit-keyframes dot-252 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42px);
+  }
+}
+@keyframes dot-252 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42px);
+  }
+}
+@-webkit-keyframes dot-253 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.1666666667px);
+  }
+}
+@keyframes dot-253 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.1666666667px);
+  }
+}
+@-webkit-keyframes dot-254 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.3333333333px);
+  }
+}
+@keyframes dot-254 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.3333333333px);
+  }
+}
+@-webkit-keyframes dot-255 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.5px);
+  }
+}
+@keyframes dot-255 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.5px);
+  }
+}
+@-webkit-keyframes dot-256 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.6666666667px);
+  }
+}
+@keyframes dot-256 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.6666666667px);
+  }
+}
+@-webkit-keyframes dot-257 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.8333333333px);
+  }
+}
+@keyframes dot-257 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 42.8333333333px);
+  }
+}
+@-webkit-keyframes dot-258 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43px);
+  }
+}
+@keyframes dot-258 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43px);
+  }
+}
+@-webkit-keyframes dot-259 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.1666666667px);
+  }
+}
+@keyframes dot-259 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.1666666667px);
+  }
+}
+@-webkit-keyframes dot-260 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.3333333333px);
+  }
+}
+@keyframes dot-260 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.3333333333px);
+  }
+}
+@-webkit-keyframes dot-261 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.5px);
+  }
+}
+@keyframes dot-261 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.5px);
+  }
+}
+@-webkit-keyframes dot-262 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.6666666667px);
+  }
+}
+@keyframes dot-262 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.6666666667px);
+  }
+}
+@-webkit-keyframes dot-263 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.8333333333px);
+  }
+}
+@keyframes dot-263 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 43.8333333333px);
+  }
+}
+@-webkit-keyframes dot-264 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44px);
+  }
+}
+@keyframes dot-264 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44px);
+  }
+}
+@-webkit-keyframes dot-265 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.1666666667px);
+  }
+}
+@keyframes dot-265 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.1666666667px);
+  }
+}
+@-webkit-keyframes dot-266 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.3333333333px);
+  }
+}
+@keyframes dot-266 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.3333333333px);
+  }
+}
+@-webkit-keyframes dot-267 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.5px);
+  }
+}
+@keyframes dot-267 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.5px);
+  }
+}
+@-webkit-keyframes dot-268 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.6666666667px);
+  }
+}
+@keyframes dot-268 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.6666666667px);
+  }
+}
+@-webkit-keyframes dot-269 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.8333333333px);
+  }
+}
+@keyframes dot-269 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 44.8333333333px);
+  }
+}
+@-webkit-keyframes dot-270 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45px);
+  }
+}
+@keyframes dot-270 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45px);
+  }
+}
+@-webkit-keyframes dot-271 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.1666666667px);
+  }
+}
+@keyframes dot-271 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.1666666667px);
+  }
+}
+@-webkit-keyframes dot-272 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.3333333333px);
+  }
+}
+@keyframes dot-272 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.3333333333px);
+  }
+}
+@-webkit-keyframes dot-273 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.5px);
+  }
+}
+@keyframes dot-273 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.5px);
+  }
+}
+@-webkit-keyframes dot-274 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.6666666667px);
+  }
+}
+@keyframes dot-274 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.6666666667px);
+  }
+}
+@-webkit-keyframes dot-275 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.8333333333px);
+  }
+}
+@keyframes dot-275 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 45.8333333333px);
+  }
+}
+@-webkit-keyframes dot-276 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46px);
+  }
+}
+@keyframes dot-276 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46px);
+  }
+}
+@-webkit-keyframes dot-277 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.1666666667px);
+  }
+}
+@keyframes dot-277 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.1666666667px);
+  }
+}
+@-webkit-keyframes dot-278 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.3333333333px);
+  }
+}
+@keyframes dot-278 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.3333333333px);
+  }
+}
+@-webkit-keyframes dot-279 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.5px);
+  }
+}
+@keyframes dot-279 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.5px);
+  }
+}
+@-webkit-keyframes dot-280 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.6666666667px);
+  }
+}
+@keyframes dot-280 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.6666666667px);
+  }
+}
+@-webkit-keyframes dot-281 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.8333333333px);
+  }
+}
+@keyframes dot-281 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 46.8333333333px);
+  }
+}
+@-webkit-keyframes dot-282 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47px);
+  }
+}
+@keyframes dot-282 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47px);
+  }
+}
+@-webkit-keyframes dot-283 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.1666666667px);
+  }
+}
+@keyframes dot-283 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.1666666667px);
+  }
+}
+@-webkit-keyframes dot-284 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.3333333333px);
+  }
+}
+@keyframes dot-284 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.3333333333px);
+  }
+}
+@-webkit-keyframes dot-285 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.5px);
+  }
+}
+@keyframes dot-285 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.5px);
+  }
+}
+@-webkit-keyframes dot-286 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.6666666667px);
+  }
+}
+@keyframes dot-286 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.6666666667px);
+  }
+}
+@-webkit-keyframes dot-287 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.8333333333px);
+  }
+}
+@keyframes dot-287 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 47.8333333333px);
+  }
+}
+@-webkit-keyframes dot-288 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48px);
+  }
+}
+@keyframes dot-288 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48px);
+  }
+}
+@-webkit-keyframes dot-289 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.1666666667px);
+  }
+}
+@keyframes dot-289 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.1666666667px);
+  }
+}
+@-webkit-keyframes dot-290 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.3333333333px);
+  }
+}
+@keyframes dot-290 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.3333333333px);
+  }
+}
+@-webkit-keyframes dot-291 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.5px);
+  }
+}
+@keyframes dot-291 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.5px);
+  }
+}
+@-webkit-keyframes dot-292 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.6666666667px);
+  }
+}
+@keyframes dot-292 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.6666666667px);
+  }
+}
+@-webkit-keyframes dot-293 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.8333333333px);
+  }
+}
+@keyframes dot-293 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 48.8333333333px);
+  }
+}
+@-webkit-keyframes dot-294 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49px);
+  }
+}
+@keyframes dot-294 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49px);
+  }
+}
+@-webkit-keyframes dot-295 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.1666666667px);
+  }
+}
+@keyframes dot-295 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.1666666667px);
+  }
+}
+@-webkit-keyframes dot-296 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.3333333333px);
+  }
+}
+@keyframes dot-296 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.3333333333px);
+  }
+}
+@-webkit-keyframes dot-297 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.5px);
+  }
+}
+@keyframes dot-297 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.5px);
+  }
+}
+@-webkit-keyframes dot-298 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.6666666667px);
+  }
+}
+@keyframes dot-298 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.6666666667px);
+  }
+}
+@-webkit-keyframes dot-299 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.8333333333px);
+  }
+}
+@keyframes dot-299 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 49.8333333333px);
+  }
+}
+@-webkit-keyframes dot-300 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 50px);
+  }
+}
+@keyframes dot-300 {
+  to {
+    opacity: 0.5;
+    transform: scale(1.2) translate3d(0, 0, 50px);
+  }
+}
+.dot:nth-child(1) {
+  -webkit-animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.0833333333s;
+  animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.0833333333s;
+}
+
+.dot:nth-child(2) {
+  -webkit-animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.1666666667s;
+  animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.1666666667s;
+}
+
+.dot:nth-child(3) {
+  -webkit-animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.25s;
+  animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.25s;
+}
+
+.dot:nth-child(4) {
+  -webkit-animation: dot-93 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.3333333333s;
+  animation: dot-93 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.3333333333s;
+}
+
+.dot:nth-child(5) {
+  -webkit-animation: dot-80 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.4166666667s;
+  animation: dot-80 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.4166666667s;
+}
+
+.dot:nth-child(6) {
+  -webkit-animation: dot-298 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.5s;
+  animation: dot-298 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.5s;
+}
+
+.dot:nth-child(7) {
+  -webkit-animation: dot-206 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.5833333333s;
+  animation: dot-206 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.5833333333s;
+}
+
+.dot:nth-child(8) {
+  -webkit-animation: dot-51 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.6666666667s;
+  animation: dot-51 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.6666666667s;
+}
+
+.dot:nth-child(9) {
+  -webkit-animation: dot-221 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.75s;
+  animation: dot-221 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.75s;
+}
+
+.dot:nth-child(10) {
+  -webkit-animation: dot-166 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.8333333333s;
+  animation: dot-166 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.8333333333s;
+}
+
+.dot:nth-child(11) {
+  -webkit-animation: dot-296 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -0.9166666667s;
+  animation: dot-296 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -0.9166666667s;
+}
+
+.dot:nth-child(12) {
+  -webkit-animation: dot-207 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1s;
+  animation: dot-207 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1s;
+}
+
+.dot:nth-child(13) {
+  -webkit-animation: dot-197 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.0833333333s;
+  animation: dot-197 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.0833333333s;
+}
+
+.dot:nth-child(14) {
+  -webkit-animation: dot-211 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.1666666667s;
+  animation: dot-211 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.1666666667s;
+}
+
+.dot:nth-child(15) {
+  -webkit-animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.25s;
+  animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.25s;
+}
+
+.dot:nth-child(16) {
+  -webkit-animation: dot-223 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.3333333333s;
+  animation: dot-223 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.3333333333s;
+}
+
+.dot:nth-child(17) {
+  -webkit-animation: dot-277 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.4166666667s;
+  animation: dot-277 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.4166666667s;
+}
+
+.dot:nth-child(18) {
+  -webkit-animation: dot-250 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.5s;
+  animation: dot-250 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.5s;
+}
+
+.dot:nth-child(19) {
+  -webkit-animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.5833333333s;
+  animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.5833333333s;
+}
+
+.dot:nth-child(20) {
+  -webkit-animation: dot-286 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.6666666667s;
+  animation: dot-286 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.6666666667s;
+}
+
+.dot:nth-child(21) {
+  -webkit-animation: dot-136 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.75s;
+  animation: dot-136 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.75s;
+}
+
+.dot:nth-child(22) {
+  -webkit-animation: dot-37 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.8333333333s;
+  animation: dot-37 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.8333333333s;
+}
+
+.dot:nth-child(23) {
+  -webkit-animation: dot-73 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -1.9166666667s;
+  animation: dot-73 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -1.9166666667s;
+}
+
+.dot:nth-child(24) {
+  -webkit-animation: dot-92 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2s;
+  animation: dot-92 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2s;
+}
+
+.dot:nth-child(25) {
+  -webkit-animation: dot-119 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.0833333333s;
+  animation: dot-119 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.0833333333s;
+}
+
+.dot:nth-child(26) {
+  -webkit-animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.1666666667s;
+  animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.1666666667s;
+}
+
+.dot:nth-child(27) {
+  -webkit-animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.25s;
+  animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.25s;
+}
+
+.dot:nth-child(28) {
+  -webkit-animation: dot-3 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.3333333333s;
+  animation: dot-3 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.3333333333s;
+}
+
+.dot:nth-child(29) {
+  -webkit-animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.4166666667s;
+  animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.4166666667s;
+}
+
+.dot:nth-child(30) {
+  -webkit-animation: dot-289 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.5s;
+  animation: dot-289 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.5s;
+}
+
+.dot:nth-child(31) {
+  -webkit-animation: dot-75 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.5833333333s;
+  animation: dot-75 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.5833333333s;
+}
+
+.dot:nth-child(32) {
+  -webkit-animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.6666666667s;
+  animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.6666666667s;
+}
+
+.dot:nth-child(33) {
+  -webkit-animation: dot-245 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.75s;
+  animation: dot-245 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.75s;
+}
+
+.dot:nth-child(34) {
+  -webkit-animation: dot-185 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.8333333333s;
+  animation: dot-185 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.8333333333s;
+}
+
+.dot:nth-child(35) {
+  -webkit-animation: dot-33 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -2.9166666667s;
+  animation: dot-33 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -2.9166666667s;
+}
+
+.dot:nth-child(36) {
+  -webkit-animation: dot-91 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3s;
+  animation: dot-91 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3s;
+}
+
+.dot:nth-child(37) {
+  -webkit-animation: dot-69 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.0833333333s;
+  animation: dot-69 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.0833333333s;
+}
+
+.dot:nth-child(38) {
+  -webkit-animation: dot-71 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.1666666667s;
+  animation: dot-71 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.1666666667s;
+}
+
+.dot:nth-child(39) {
+  -webkit-animation: dot-83 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.25s;
+  animation: dot-83 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.25s;
+}
+
+.dot:nth-child(40) {
+  -webkit-animation: dot-148 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.3333333333s;
+  animation: dot-148 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.3333333333s;
+}
+
+.dot:nth-child(41) {
+  -webkit-animation: dot-246 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.4166666667s;
+  animation: dot-246 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.4166666667s;
+}
+
+.dot:nth-child(42) {
+  -webkit-animation: dot-213 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.5s;
+  animation: dot-213 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.5s;
+}
+
+.dot:nth-child(43) {
+  -webkit-animation: dot-138 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.5833333333s;
+  animation: dot-138 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.5833333333s;
+}
+
+.dot:nth-child(44) {
+  -webkit-animation: dot-165 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.6666666667s;
+  animation: dot-165 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.6666666667s;
+}
+
+.dot:nth-child(45) {
+  -webkit-animation: dot-206 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.75s;
+  animation: dot-206 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.75s;
+}
+
+.dot:nth-child(46) {
+  -webkit-animation: dot-86 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.8333333333s;
+  animation: dot-86 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.8333333333s;
+}
+
+.dot:nth-child(47) {
+  -webkit-animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -3.9166666667s;
+  animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -3.9166666667s;
+}
+
+.dot:nth-child(48) {
+  -webkit-animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4s;
+  animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4s;
+}
+
+.dot:nth-child(49) {
+  -webkit-animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.0833333333s;
+  animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.0833333333s;
+}
+
+.dot:nth-child(50) {
+  -webkit-animation: dot-82 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.1666666667s;
+  animation: dot-82 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.1666666667s;
+}
+
+.dot:nth-child(51) {
+  -webkit-animation: dot-290 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.25s;
+  animation: dot-290 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.25s;
+}
+
+.dot:nth-child(52) {
+  -webkit-animation: dot-153 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.3333333333s;
+  animation: dot-153 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.3333333333s;
+}
+
+.dot:nth-child(53) {
+  -webkit-animation: dot-212 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.4166666667s;
+  animation: dot-212 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.4166666667s;
+}
+
+.dot:nth-child(54) {
+  -webkit-animation: dot-31 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.5s;
+  animation: dot-31 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.5s;
+}
+
+.dot:nth-child(55) {
+  -webkit-animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.5833333333s;
+  animation: dot-239 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.5833333333s;
+}
+
+.dot:nth-child(56) {
+  -webkit-animation: dot-244 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.6666666667s;
+  animation: dot-244 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.6666666667s;
+}
+
+.dot:nth-child(57) {
+  -webkit-animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.75s;
+  animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.75s;
+}
+
+.dot:nth-child(58) {
+  -webkit-animation: dot-91 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.8333333333s;
+  animation: dot-91 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.8333333333s;
+}
+
+.dot:nth-child(59) {
+  -webkit-animation: dot-161 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -4.9166666667s;
+  animation: dot-161 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -4.9166666667s;
+}
+
+.dot:nth-child(60) {
+  -webkit-animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5s;
+  animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5s;
+}
+
+.dot:nth-child(61) {
+  -webkit-animation: dot-163 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.0833333333s;
+  animation: dot-163 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.0833333333s;
+}
+
+.dot:nth-child(62) {
+  -webkit-animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.1666666667s;
+  animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.1666666667s;
+}
+
+.dot:nth-child(63) {
+  -webkit-animation: dot-126 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.25s;
+  animation: dot-126 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.25s;
+}
+
+.dot:nth-child(64) {
+  -webkit-animation: dot-295 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.3333333333s;
+  animation: dot-295 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.3333333333s;
+}
+
+.dot:nth-child(65) {
+  -webkit-animation: dot-29 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.4166666667s;
+  animation: dot-29 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.4166666667s;
+}
+
+.dot:nth-child(66) {
+  -webkit-animation: dot-58 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.5s;
+  animation: dot-58 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.5s;
+}
+
+.dot:nth-child(67) {
+  -webkit-animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.5833333333s;
+  animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.5833333333s;
+}
+
+.dot:nth-child(68) {
+  -webkit-animation: dot-15 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.6666666667s;
+  animation: dot-15 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.6666666667s;
+}
+
+.dot:nth-child(69) {
+  -webkit-animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.75s;
+  animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.75s;
+}
+
+.dot:nth-child(70) {
+  -webkit-animation: dot-259 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.8333333333s;
+  animation: dot-259 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.8333333333s;
+}
+
+.dot:nth-child(71) {
+  -webkit-animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -5.9166666667s;
+  animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -5.9166666667s;
+}
+
+.dot:nth-child(72) {
+  -webkit-animation: dot-56 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6s;
+  animation: dot-56 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6s;
+}
+
+.dot:nth-child(73) {
+  -webkit-animation: dot-102 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.0833333333s;
+  animation: dot-102 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.0833333333s;
+}
+
+.dot:nth-child(74) {
+  -webkit-animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.1666666667s;
+  animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.1666666667s;
+}
+
+.dot:nth-child(75) {
+  -webkit-animation: dot-55 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.25s;
+  animation: dot-55 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.25s;
+}
+
+.dot:nth-child(76) {
+  -webkit-animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.3333333333s;
+  animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.3333333333s;
+}
+
+.dot:nth-child(77) {
+  -webkit-animation: dot-35 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.4166666667s;
+  animation: dot-35 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.4166666667s;
+}
+
+.dot:nth-child(78) {
+  -webkit-animation: dot-139 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.5s;
+  animation: dot-139 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.5s;
+}
+
+.dot:nth-child(79) {
+  -webkit-animation: dot-132 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.5833333333s;
+  animation: dot-132 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.5833333333s;
+}
+
+.dot:nth-child(80) {
+  -webkit-animation: dot-16 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.6666666667s;
+  animation: dot-16 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.6666666667s;
+}
+
+.dot:nth-child(81) {
+  -webkit-animation: dot-98 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.75s;
+  animation: dot-98 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.75s;
+}
+
+.dot:nth-child(82) {
+  -webkit-animation: dot-152 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.8333333333s;
+  animation: dot-152 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.8333333333s;
+}
+
+.dot:nth-child(83) {
+  -webkit-animation: dot-196 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -6.9166666667s;
+  animation: dot-196 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -6.9166666667s;
+}
+
+.dot:nth-child(84) {
+  -webkit-animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7s;
+  animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7s;
+}
+
+.dot:nth-child(85) {
+  -webkit-animation: dot-66 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.0833333333s;
+  animation: dot-66 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.0833333333s;
+}
+
+.dot:nth-child(86) {
+  -webkit-animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.1666666667s;
+  animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.1666666667s;
+}
+
+.dot:nth-child(87) {
+  -webkit-animation: dot-137 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.25s;
+  animation: dot-137 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.25s;
+}
+
+.dot:nth-child(88) {
+  -webkit-animation: dot-17 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.3333333333s;
+  animation: dot-17 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.3333333333s;
+}
+
+.dot:nth-child(89) {
+  -webkit-animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.4166666667s;
+  animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.4166666667s;
+}
+
+.dot:nth-child(90) {
+  -webkit-animation: dot-23 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.5s;
+  animation: dot-23 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.5s;
+}
+
+.dot:nth-child(91) {
+  -webkit-animation: dot-9 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.5833333333s;
+  animation: dot-9 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.5833333333s;
+}
+
+.dot:nth-child(92) {
+  -webkit-animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.6666666667s;
+  animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.6666666667s;
+}
+
+.dot:nth-child(93) {
+  -webkit-animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.75s;
+  animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.75s;
+}
+
+.dot:nth-child(94) {
+  -webkit-animation: dot-133 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.8333333333s;
+  animation: dot-133 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.8333333333s;
+}
+
+.dot:nth-child(95) {
+  -webkit-animation: dot-74 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -7.9166666667s;
+  animation: dot-74 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -7.9166666667s;
+}
+
+.dot:nth-child(96) {
+  -webkit-animation: dot-169 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8s;
+  animation: dot-169 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8s;
+}
+
+.dot:nth-child(97) {
+  -webkit-animation: dot-74 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.0833333333s;
+  animation: dot-74 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.0833333333s;
+}
+
+.dot:nth-child(98) {
+  -webkit-animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.1666666667s;
+  animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.1666666667s;
+}
+
+.dot:nth-child(99) {
+  -webkit-animation: dot-80 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.25s;
+  animation: dot-80 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.25s;
+}
+
+.dot:nth-child(100) {
+  -webkit-animation: dot-14 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.3333333333s;
+  animation: dot-14 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.3333333333s;
+}
+
+.dot:nth-child(101) {
+  -webkit-animation: dot-263 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.4166666667s;
+  animation: dot-263 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.4166666667s;
+}
+
+.dot:nth-child(102) {
+  -webkit-animation: dot-166 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.5s;
+  animation: dot-166 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.5s;
+}
+
+.dot:nth-child(103) {
+  -webkit-animation: dot-44 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.5833333333s;
+  animation: dot-44 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.5833333333s;
+}
+
+.dot:nth-child(104) {
+  -webkit-animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.6666666667s;
+  animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.6666666667s;
+}
+
+.dot:nth-child(105) {
+  -webkit-animation: dot-278 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.75s;
+  animation: dot-278 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.75s;
+}
+
+.dot:nth-child(106) {
+  -webkit-animation: dot-178 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.8333333333s;
+  animation: dot-178 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.8333333333s;
+}
+
+.dot:nth-child(107) {
+  -webkit-animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -8.9166666667s;
+  animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -8.9166666667s;
+}
+
+.dot:nth-child(108) {
+  -webkit-animation: dot-120 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9s;
+  animation: dot-120 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9s;
+}
+
+.dot:nth-child(109) {
+  -webkit-animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.0833333333s;
+  animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.0833333333s;
+}
+
+.dot:nth-child(110) {
+  -webkit-animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.1666666667s;
+  animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.1666666667s;
+}
+
+.dot:nth-child(111) {
+  -webkit-animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.25s;
+  animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.25s;
+}
+
+.dot:nth-child(112) {
+  -webkit-animation: dot-209 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.3333333333s;
+  animation: dot-209 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.3333333333s;
+}
+
+.dot:nth-child(113) {
+  -webkit-animation: dot-50 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.4166666667s;
+  animation: dot-50 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.4166666667s;
+}
+
+.dot:nth-child(114) {
+  -webkit-animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.5s;
+  animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.5s;
+}
+
+.dot:nth-child(115) {
+  -webkit-animation: dot-280 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.5833333333s;
+  animation: dot-280 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.5833333333s;
+}
+
+.dot:nth-child(116) {
+  -webkit-animation: dot-90 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.6666666667s;
+  animation: dot-90 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.6666666667s;
+}
+
+.dot:nth-child(117) {
+  -webkit-animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.75s;
+  animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.75s;
+}
+
+.dot:nth-child(118) {
+  -webkit-animation: dot-37 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.8333333333s;
+  animation: dot-37 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.8333333333s;
+}
+
+.dot:nth-child(119) {
+  -webkit-animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -9.9166666667s;
+  animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -9.9166666667s;
+}
+
+.dot:nth-child(120) {
+  -webkit-animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10s;
+  animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10s;
+}
+
+.dot:nth-child(121) {
+  -webkit-animation: dot-61 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.0833333333s;
+  animation: dot-61 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.0833333333s;
+}
+
+.dot:nth-child(122) {
+  -webkit-animation: dot-32 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.1666666667s;
+  animation: dot-32 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.1666666667s;
+}
+
+.dot:nth-child(123) {
+  -webkit-animation: dot-143 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.25s;
+  animation: dot-143 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.25s;
+}
+
+.dot:nth-child(124) {
+  -webkit-animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.3333333333s;
+  animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.3333333333s;
+}
+
+.dot:nth-child(125) {
+  -webkit-animation: dot-155 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.4166666667s;
+  animation: dot-155 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.4166666667s;
+}
+
+.dot:nth-child(126) {
+  -webkit-animation: dot-123 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.5s;
+  animation: dot-123 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.5s;
+}
+
+.dot:nth-child(127) {
+  -webkit-animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.5833333333s;
+  animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.5833333333s;
+}
+
+.dot:nth-child(128) {
+  -webkit-animation: dot-117 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.6666666667s;
+  animation: dot-117 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.6666666667s;
+}
+
+.dot:nth-child(129) {
+  -webkit-animation: dot-19 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.75s;
+  animation: dot-19 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.75s;
+}
+
+.dot:nth-child(130) {
+  -webkit-animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.8333333333s;
+  animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.8333333333s;
+}
+
+.dot:nth-child(131) {
+  -webkit-animation: dot-220 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -10.9166666667s;
+  animation: dot-220 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -10.9166666667s;
+}
+
+.dot:nth-child(132) {
+  -webkit-animation: dot-207 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11s;
+  animation: dot-207 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11s;
+}
+
+.dot:nth-child(133) {
+  -webkit-animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.0833333333s;
+  animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.0833333333s;
+}
+
+.dot:nth-child(134) {
+  -webkit-animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.1666666667s;
+  animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.1666666667s;
+}
+
+.dot:nth-child(135) {
+  -webkit-animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.25s;
+  animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.25s;
+}
+
+.dot:nth-child(136) {
+  -webkit-animation: dot-282 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.3333333333s;
+  animation: dot-282 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.3333333333s;
+}
+
+.dot:nth-child(137) {
+  -webkit-animation: dot-218 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.4166666667s;
+  animation: dot-218 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.4166666667s;
+}
+
+.dot:nth-child(138) {
+  -webkit-animation: dot-59 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.5s;
+  animation: dot-59 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.5s;
+}
+
+.dot:nth-child(139) {
+  -webkit-animation: dot-202 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.5833333333s;
+  animation: dot-202 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.5833333333s;
+}
+
+.dot:nth-child(140) {
+  -webkit-animation: dot-195 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.6666666667s;
+  animation: dot-195 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.6666666667s;
+}
+
+.dot:nth-child(141) {
+  -webkit-animation: dot-85 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.75s;
+  animation: dot-85 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.75s;
+}
+
+.dot:nth-child(142) {
+  -webkit-animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.8333333333s;
+  animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.8333333333s;
+}
+
+.dot:nth-child(143) {
+  -webkit-animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -11.9166666667s;
+  animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -11.9166666667s;
+}
+
+.dot:nth-child(144) {
+  -webkit-animation: dot-204 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12s;
+  animation: dot-204 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12s;
+}
+
+.dot:nth-child(145) {
+  -webkit-animation: dot-290 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.0833333333s;
+  animation: dot-290 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.0833333333s;
+}
+
+.dot:nth-child(146) {
+  -webkit-animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.1666666667s;
+  animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.1666666667s;
+}
+
+.dot:nth-child(147) {
+  -webkit-animation: dot-111 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.25s;
+  animation: dot-111 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.25s;
+}
+
+.dot:nth-child(148) {
+  -webkit-animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.3333333333s;
+  animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.3333333333s;
+}
+
+.dot:nth-child(149) {
+  -webkit-animation: dot-13 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.4166666667s;
+  animation: dot-13 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.4166666667s;
+}
+
+.dot:nth-child(150) {
+  -webkit-animation: dot-183 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.5s;
+  animation: dot-183 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.5s;
+}
+
+.dot:nth-child(151) {
+  -webkit-animation: dot-174 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.5833333333s;
+  animation: dot-174 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.5833333333s;
+}
+
+.dot:nth-child(152) {
+  -webkit-animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.6666666667s;
+  animation: dot-54 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.6666666667s;
+}
+
+.dot:nth-child(153) {
+  -webkit-animation: dot-298 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.75s;
+  animation: dot-298 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.75s;
+}
+
+.dot:nth-child(154) {
+  -webkit-animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.8333333333s;
+  animation: dot-159 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.8333333333s;
+}
+
+.dot:nth-child(155) {
+  -webkit-animation: dot-32 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -12.9166666667s;
+  animation: dot-32 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -12.9166666667s;
+}
+
+.dot:nth-child(156) {
+  -webkit-animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13s;
+  animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13s;
+}
+
+.dot:nth-child(157) {
+  -webkit-animation: dot-8 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.0833333333s;
+  animation: dot-8 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.0833333333s;
+}
+
+.dot:nth-child(158) {
+  -webkit-animation: dot-14 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.1666666667s;
+  animation: dot-14 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.1666666667s;
+}
+
+.dot:nth-child(159) {
+  -webkit-animation: dot-86 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.25s;
+  animation: dot-86 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.25s;
+}
+
+.dot:nth-child(160) {
+  -webkit-animation: dot-89 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.3333333333s;
+  animation: dot-89 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.3333333333s;
+}
+
+.dot:nth-child(161) {
+  -webkit-animation: dot-67 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.4166666667s;
+  animation: dot-67 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.4166666667s;
+}
+
+.dot:nth-child(162) {
+  -webkit-animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.5s;
+  animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.5s;
+}
+
+.dot:nth-child(163) {
+  -webkit-animation: dot-194 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.5833333333s;
+  animation: dot-194 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.5833333333s;
+}
+
+.dot:nth-child(164) {
+  -webkit-animation: dot-205 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.6666666667s;
+  animation: dot-205 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.6666666667s;
+}
+
+.dot:nth-child(165) {
+  -webkit-animation: dot-246 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.75s;
+  animation: dot-246 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.75s;
+}
+
+.dot:nth-child(166) {
+  -webkit-animation: dot-136 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.8333333333s;
+  animation: dot-136 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.8333333333s;
+}
+
+.dot:nth-child(167) {
+  -webkit-animation: dot-47 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -13.9166666667s;
+  animation: dot-47 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -13.9166666667s;
+}
+
+.dot:nth-child(168) {
+  -webkit-animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14s;
+  animation: dot-268 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14s;
+}
+
+.dot:nth-child(169) {
+  -webkit-animation: dot-58 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.0833333333s;
+  animation: dot-58 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.0833333333s;
+}
+
+.dot:nth-child(170) {
+  -webkit-animation: dot-179 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.1666666667s;
+  animation: dot-179 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.1666666667s;
+}
+
+.dot:nth-child(171) {
+  -webkit-animation: dot-67 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.25s;
+  animation: dot-67 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.25s;
+}
+
+.dot:nth-child(172) {
+  -webkit-animation: dot-72 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.3333333333s;
+  animation: dot-72 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.3333333333s;
+}
+
+.dot:nth-child(173) {
+  -webkit-animation: dot-271 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.4166666667s;
+  animation: dot-271 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.4166666667s;
+}
+
+.dot:nth-child(174) {
+  -webkit-animation: dot-278 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.5s;
+  animation: dot-278 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.5s;
+}
+
+.dot:nth-child(175) {
+  -webkit-animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.5833333333s;
+  animation: dot-237 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.5833333333s;
+}
+
+.dot:nth-child(176) {
+  -webkit-animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.6666666667s;
+  animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.6666666667s;
+}
+
+.dot:nth-child(177) {
+  -webkit-animation: dot-185 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.75s;
+  animation: dot-185 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.75s;
+}
+
+.dot:nth-child(178) {
+  -webkit-animation: dot-240 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.8333333333s;
+  animation: dot-240 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.8333333333s;
+}
+
+.dot:nth-child(179) {
+  -webkit-animation: dot-167 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -14.9166666667s;
+  animation: dot-167 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -14.9166666667s;
+}
+
+.dot:nth-child(180) {
+  -webkit-animation: dot-240 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15s;
+  animation: dot-240 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15s;
+}
+
+.dot:nth-child(181) {
+  -webkit-animation: dot-64 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.0833333333s;
+  animation: dot-64 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.0833333333s;
+}
+
+.dot:nth-child(182) {
+  -webkit-animation: dot-66 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.1666666667s;
+  animation: dot-66 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.1666666667s;
+}
+
+.dot:nth-child(183) {
+  -webkit-animation: dot-190 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.25s;
+  animation: dot-190 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.25s;
+}
+
+.dot:nth-child(184) {
+  -webkit-animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.3333333333s;
+  animation: dot-147 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.3333333333s;
+}
+
+.dot:nth-child(185) {
+  -webkit-animation: dot-51 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.4166666667s;
+  animation: dot-51 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.4166666667s;
+}
+
+.dot:nth-child(186) {
+  -webkit-animation: dot-47 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.5s;
+  animation: dot-47 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.5s;
+}
+
+.dot:nth-child(187) {
+  -webkit-animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.5833333333s;
+  animation: dot-145 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.5833333333s;
+}
+
+.dot:nth-child(188) {
+  -webkit-animation: dot-232 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.6666666667s;
+  animation: dot-232 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.6666666667s;
+}
+
+.dot:nth-child(189) {
+  -webkit-animation: dot-79 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.75s;
+  animation: dot-79 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.75s;
+}
+
+.dot:nth-child(190) {
+  -webkit-animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.8333333333s;
+  animation: dot-134 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.8333333333s;
+}
+
+.dot:nth-child(191) {
+  -webkit-animation: dot-65 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -15.9166666667s;
+  animation: dot-65 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -15.9166666667s;
+}
+
+.dot:nth-child(192) {
+  -webkit-animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16s;
+  animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16s;
+}
+
+.dot:nth-child(193) {
+  -webkit-animation: dot-124 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.0833333333s;
+  animation: dot-124 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.0833333333s;
+}
+
+.dot:nth-child(194) {
+  -webkit-animation: dot-87 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.1666666667s;
+  animation: dot-87 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.1666666667s;
+}
+
+.dot:nth-child(195) {
+  -webkit-animation: dot-291 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.25s;
+  animation: dot-291 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.25s;
+}
+
+.dot:nth-child(196) {
+  -webkit-animation: dot-243 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.3333333333s;
+  animation: dot-243 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.3333333333s;
+}
+
+.dot:nth-child(197) {
+  -webkit-animation: dot-133 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.4166666667s;
+  animation: dot-133 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.4166666667s;
+}
+
+.dot:nth-child(198) {
+  -webkit-animation: dot-163 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.5s;
+  animation: dot-163 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.5s;
+}
+
+.dot:nth-child(199) {
+  -webkit-animation: dot-73 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.5833333333s;
+  animation: dot-73 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.5833333333s;
+}
+
+.dot:nth-child(200) {
+  -webkit-animation: dot-42 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.6666666667s;
+  animation: dot-42 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.6666666667s;
+}
+
+.dot:nth-child(201) {
+  -webkit-animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.75s;
+  animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.75s;
+}
+
+.dot:nth-child(202) {
+  -webkit-animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.8333333333s;
+  animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.8333333333s;
+}
+
+.dot:nth-child(203) {
+  -webkit-animation: dot-34 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -16.9166666667s;
+  animation: dot-34 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -16.9166666667s;
+}
+
+.dot:nth-child(204) {
+  -webkit-animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17s;
+  animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17s;
+}
+
+.dot:nth-child(205) {
+  -webkit-animation: dot-192 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.0833333333s;
+  animation: dot-192 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.0833333333s;
+}
+
+.dot:nth-child(206) {
+  -webkit-animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.1666666667s;
+  animation: dot-43 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.1666666667s;
+}
+
+.dot:nth-child(207) {
+  -webkit-animation: dot-90 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.25s;
+  animation: dot-90 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.25s;
+}
+
+.dot:nth-child(208) {
+  -webkit-animation: dot-93 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.3333333333s;
+  animation: dot-93 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.3333333333s;
+}
+
+.dot:nth-child(209) {
+  -webkit-animation: dot-157 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.4166666667s;
+  animation: dot-157 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.4166666667s;
+}
+
+.dot:nth-child(210) {
+  -webkit-animation: dot-108 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.5s;
+  animation: dot-108 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.5s;
+}
+
+.dot:nth-child(211) {
+  -webkit-animation: dot-161 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.5833333333s;
+  animation: dot-161 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.5833333333s;
+}
+
+.dot:nth-child(212) {
+  -webkit-animation: dot-33 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.6666666667s;
+  animation: dot-33 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.6666666667s;
+}
+
+.dot:nth-child(213) {
+  -webkit-animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.75s;
+  animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.75s;
+}
+
+.dot:nth-child(214) {
+  -webkit-animation: dot-56 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.8333333333s;
+  animation: dot-56 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.8333333333s;
+}
+
+.dot:nth-child(215) {
+  -webkit-animation: dot-187 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -17.9166666667s;
+  animation: dot-187 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -17.9166666667s;
+}
+
+.dot:nth-child(216) {
+  -webkit-animation: dot-186 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18s;
+  animation: dot-186 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18s;
+}
+
+.dot:nth-child(217) {
+  -webkit-animation: dot-78 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.0833333333s;
+  animation: dot-78 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.0833333333s;
+}
+
+.dot:nth-child(218) {
+  -webkit-animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.1666666667s;
+  animation: dot-88 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.1666666667s;
+}
+
+.dot:nth-child(219) {
+  -webkit-animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.25s;
+  animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.25s;
+}
+
+.dot:nth-child(220) {
+  -webkit-animation: dot-127 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.3333333333s;
+  animation: dot-127 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.3333333333s;
+}
+
+.dot:nth-child(221) {
+  -webkit-animation: dot-223 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.4166666667s;
+  animation: dot-223 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.4166666667s;
+}
+
+.dot:nth-child(222) {
+  -webkit-animation: dot-84 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.5s;
+  animation: dot-84 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.5s;
+}
+
+.dot:nth-child(223) {
+  -webkit-animation: dot-281 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.5833333333s;
+  animation: dot-281 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.5833333333s;
+}
+
+.dot:nth-child(224) {
+  -webkit-animation: dot-158 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.6666666667s;
+  animation: dot-158 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.6666666667s;
+}
+
+.dot:nth-child(225) {
+  -webkit-animation: dot-297 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.75s;
+  animation: dot-297 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.75s;
+}
+
+.dot:nth-child(226) {
+  -webkit-animation: dot-120 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.8333333333s;
+  animation: dot-120 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.8333333333s;
+}
+
+.dot:nth-child(227) {
+  -webkit-animation: dot-40 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -18.9166666667s;
+  animation: dot-40 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -18.9166666667s;
+}
+
+.dot:nth-child(228) {
+  -webkit-animation: dot-233 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19s;
+  animation: dot-233 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19s;
+}
+
+.dot:nth-child(229) {
+  -webkit-animation: dot-218 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.0833333333s;
+  animation: dot-218 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.0833333333s;
+}
+
+.dot:nth-child(230) {
+  -webkit-animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.1666666667s;
+  animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.1666666667s;
+}
+
+.dot:nth-child(231) {
+  -webkit-animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.25s;
+  animation: dot-5 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.25s;
+}
+
+.dot:nth-child(232) {
+  -webkit-animation: dot-53 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.3333333333s;
+  animation: dot-53 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.3333333333s;
+}
+
+.dot:nth-child(233) {
+  -webkit-animation: dot-272 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.4166666667s;
+  animation: dot-272 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.4166666667s;
+}
+
+.dot:nth-child(234) {
+  -webkit-animation: dot-41 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.5s;
+  animation: dot-41 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.5s;
+}
+
+.dot:nth-child(235) {
+  -webkit-animation: dot-63 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.5833333333s;
+  animation: dot-63 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.5833333333s;
+}
+
+.dot:nth-child(236) {
+  -webkit-animation: dot-44 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.6666666667s;
+  animation: dot-44 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.6666666667s;
+}
+
+.dot:nth-child(237) {
+  -webkit-animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.75s;
+  animation: dot-57 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.75s;
+}
+
+.dot:nth-child(238) {
+  -webkit-animation: dot-94 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.8333333333s;
+  animation: dot-94 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.8333333333s;
+}
+
+.dot:nth-child(239) {
+  -webkit-animation: dot-61 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -19.9166666667s;
+  animation: dot-61 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -19.9166666667s;
+}
+
+.dot:nth-child(240) {
+  -webkit-animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20s;
+  animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20s;
+}
+
+.dot:nth-child(241) {
+  -webkit-animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.0833333333s;
+  animation: dot-293 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.0833333333s;
+}
+
+.dot:nth-child(242) {
+  -webkit-animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.1666666667s;
+  animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.1666666667s;
+}
+
+.dot:nth-child(243) {
+  -webkit-animation: dot-96 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.25s;
+  animation: dot-96 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.25s;
+}
+
+.dot:nth-child(244) {
+  -webkit-animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.3333333333s;
+  animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.3333333333s;
+}
+
+.dot:nth-child(245) {
+  -webkit-animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.4166666667s;
+  animation: dot-294 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.4166666667s;
+}
+
+.dot:nth-child(246) {
+  -webkit-animation: dot-236 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.5s;
+  animation: dot-236 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.5s;
+}
+
+.dot:nth-child(247) {
+  -webkit-animation: dot-50 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.5833333333s;
+  animation: dot-50 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.5833333333s;
+}
+
+.dot:nth-child(248) {
+  -webkit-animation: dot-217 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.6666666667s;
+  animation: dot-217 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.6666666667s;
+}
+
+.dot:nth-child(249) {
+  -webkit-animation: dot-152 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.75s;
+  animation: dot-152 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.75s;
+}
+
+.dot:nth-child(250) {
+  -webkit-animation: dot-6 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.8333333333s;
+  animation: dot-6 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.8333333333s;
+}
+
+.dot:nth-child(251) {
+  -webkit-animation: dot-127 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -20.9166666667s;
+  animation: dot-127 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -20.9166666667s;
+}
+
+.dot:nth-child(252) {
+  -webkit-animation: dot-12 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21s;
+  animation: dot-12 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21s;
+}
+
+.dot:nth-child(253) {
+  -webkit-animation: dot-150 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.0833333333s;
+  animation: dot-150 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.0833333333s;
+}
+
+.dot:nth-child(254) {
+  -webkit-animation: dot-283 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.1666666667s;
+  animation: dot-283 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.1666666667s;
+}
+
+.dot:nth-child(255) {
+  -webkit-animation: dot-27 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.25s;
+  animation: dot-27 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.25s;
+}
+
+.dot:nth-child(256) {
+  -webkit-animation: dot-263 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.3333333333s;
+  animation: dot-263 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.3333333333s;
+}
+
+.dot:nth-child(257) {
+  -webkit-animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.4166666667s;
+  animation: dot-184 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.4166666667s;
+}
+
+.dot:nth-child(258) {
+  -webkit-animation: dot-251 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.5s;
+  animation: dot-251 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.5s;
+}
+
+.dot:nth-child(259) {
+  -webkit-animation: dot-182 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.5833333333s;
+  animation: dot-182 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.5833333333s;
+}
+
+.dot:nth-child(260) {
+  -webkit-animation: dot-60 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.6666666667s;
+  animation: dot-60 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.6666666667s;
+}
+
+.dot:nth-child(261) {
+  -webkit-animation: dot-107 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.75s;
+  animation: dot-107 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.75s;
+}
+
+.dot:nth-child(262) {
+  -webkit-animation: dot-264 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.8333333333s;
+  animation: dot-264 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.8333333333s;
+}
+
+.dot:nth-child(263) {
+  -webkit-animation: dot-153 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -21.9166666667s;
+  animation: dot-153 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -21.9166666667s;
+}
+
+.dot:nth-child(264) {
+  -webkit-animation: dot-164 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22s;
+  animation: dot-164 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22s;
+}
+
+.dot:nth-child(265) {
+  -webkit-animation: dot-103 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.0833333333s;
+  animation: dot-103 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.0833333333s;
+}
+
+.dot:nth-child(266) {
+  -webkit-animation: dot-250 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.1666666667s;
+  animation: dot-250 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.1666666667s;
+}
+
+.dot:nth-child(267) {
+  -webkit-animation: dot-35 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.25s;
+  animation: dot-35 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.25s;
+}
+
+.dot:nth-child(268) {
+  -webkit-animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.3333333333s;
+  animation: dot-46 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.3333333333s;
+}
+
+.dot:nth-child(269) {
+  -webkit-animation: dot-117 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.4166666667s;
+  animation: dot-117 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.4166666667s;
+}
+
+.dot:nth-child(270) {
+  -webkit-animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.5s;
+  animation: dot-227 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.5s;
+}
+
+.dot:nth-child(271) {
+  -webkit-animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.5833333333s;
+  animation: dot-128 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.5833333333s;
+}
+
+.dot:nth-child(272) {
+  -webkit-animation: dot-194 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.6666666667s;
+  animation: dot-194 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.6666666667s;
+}
+
+.dot:nth-child(273) {
+  -webkit-animation: dot-216 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.75s;
+  animation: dot-216 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.75s;
+}
+
+.dot:nth-child(274) {
+  -webkit-animation: dot-87 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.8333333333s;
+  animation: dot-87 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.8333333333s;
+}
+
+.dot:nth-child(275) {
+  -webkit-animation: dot-247 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -22.9166666667s;
+  animation: dot-247 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -22.9166666667s;
+}
+
+.dot:nth-child(276) {
+  -webkit-animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23s;
+  animation: dot-116 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23s;
+}
+
+.dot:nth-child(277) {
+  -webkit-animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.0833333333s;
+  animation: dot-285 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.0833333333s;
+}
+
+.dot:nth-child(278) {
+  -webkit-animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.1666666667s;
+  animation: dot-254 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.1666666667s;
+}
+
+.dot:nth-child(279) {
+  -webkit-animation: dot-98 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.25s;
+  animation: dot-98 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.25s;
+}
+
+.dot:nth-child(280) {
+  -webkit-animation: dot-108 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.3333333333s;
+  animation: dot-108 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.3333333333s;
+}
+
+.dot:nth-child(281) {
+  -webkit-animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.4166666667s;
+  animation: dot-230 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.4166666667s;
+}
+
+.dot:nth-child(282) {
+  -webkit-animation: dot-232 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.5s;
+  animation: dot-232 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.5s;
+}
+
+.dot:nth-child(283) {
+  -webkit-animation: dot-259 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.5833333333s;
+  animation: dot-259 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.5833333333s;
+}
+
+.dot:nth-child(284) {
+  -webkit-animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.6666666667s;
+  animation: dot-25 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.6666666667s;
+}
+
+.dot:nth-child(285) {
+  -webkit-animation: dot-208 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.75s;
+  animation: dot-208 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.75s;
+}
+
+.dot:nth-child(286) {
+  -webkit-animation: dot-214 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.8333333333s;
+  animation: dot-214 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.8333333333s;
+}
+
+.dot:nth-child(287) {
+  -webkit-animation: dot-291 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -23.9166666667s;
+  animation: dot-291 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -23.9166666667s;
+}
+
+.dot:nth-child(288) {
+  -webkit-animation: dot-104 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24s;
+  animation: dot-104 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24s;
+}
+
+.dot:nth-child(289) {
+  -webkit-animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.0833333333s;
+  animation: dot-95 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.0833333333s;
+}
+
+.dot:nth-child(290) {
+  -webkit-animation: dot-182 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.1666666667s;
+  animation: dot-182 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.1666666667s;
+}
+
+.dot:nth-child(291) {
+  -webkit-animation: dot-123 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.25s;
+  animation: dot-123 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.25s;
+}
+
+.dot:nth-child(292) {
+  -webkit-animation: dot-286 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.3333333333s;
+  animation: dot-286 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.3333333333s;
+}
+
+.dot:nth-child(293) {
+  -webkit-animation: dot-6 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.4166666667s;
+  animation: dot-6 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.4166666667s;
+}
+
+.dot:nth-child(294) {
+  -webkit-animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.5s;
+  animation: dot-284 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.5s;
+}
+
+.dot:nth-child(295) {
+  -webkit-animation: dot-82 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.5833333333s;
+  animation: dot-82 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.5833333333s;
+}
+
+.dot:nth-child(296) {
+  -webkit-animation: dot-125 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.6666666667s;
+  animation: dot-125 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.6666666667s;
+}
+
+.dot:nth-child(297) {
+  -webkit-animation: dot-297 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.75s;
+  animation: dot-297 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.75s;
+}
+
+.dot:nth-child(298) {
+  -webkit-animation: dot-258 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.8333333333s;
+  animation: dot-258 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.8333333333s;
+}
+
+.dot:nth-child(299) {
+  -webkit-animation: dot-42 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -24.9166666667s;
+  animation: dot-42 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -24.9166666667s;
+}
+
+.dot:nth-child(300) {
+  -webkit-animation: dot-41 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    alternate -25s;
+  animation: dot-41 1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate -25s;
+}

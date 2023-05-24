@@ -1,61 +1,87 @@
-import { useRouter } from "next/router";
-import { Switch } from '@headlessui/react'
-import { useState } from "react";
-import styles from "./Navbar.module.css"
-const Navbar = (props) => {
-    const [enabled, setEnabled] = useState(false)
-    const navItems = [{
-        key: 0,
-        name: "About us",
-        link: "#"
-    },
-    {
-        key: 1,
-        name: "Contacts",
-        link: "#"
-    },
-    {
-        key: 2,
-        name: "FAQ",
-        link: "#"
-    },
-    ]
-    const router = useRouter()
-    return (
-        <div className="w-full border top-0 absolute z-10 bg-transparent flex justify-between px-6">
-            <div className="items grid ">
-                <ul>
-                    {navItems.map((item) => {
-                        return (
-                            <li className={`${styles.item} hover:cursor-pointer`} key={item.key} onClick={() => {
-                                router.push(item.link)
-                            }}>{item.name}</li>
-                        )
-                    })}
+"use client";
 
-                </ul>
-            </div>
-            <div className="my-auto font-bold text-xl">Brand</div>
-            <div className="toggleswitch flex my-auto gap-4">
-                <div className="text-2xl">Sound</div>
-                <div className="my-auto mt-2">
-                    <Switch
-                        checked={enabled}
-                        onChange={setEnabled}
-                        className={`${enabled ? 'bg-gray-300' : 'bg-gray-300'}
-          relative inline-flex h-[20px] w-[47px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
-                    >
-                        <span className="sr-only">Use setting</span>
-                        <span
-                            aria-hidden="true"
-                            className={`${enabled ? 'translate-x-7' : 'translate-x-0'}
-            pointer-events-none inline-block h-[16px] w-[16px] transform rounded-full bg-gray-800 shadow-lg ring-0 transition duration-200 ease-in-out`}
-                        />
-                    </Switch>
-                </div>
-            </div>
-        </div>
-    );
-}
+import { useEffect, useState } from "react";
+import styles from "./Navbar.module.css";
+import { Dropdown, Avatar } from "@nextui-org/react";
+import { signIn, signOut, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
+
+const Navbar = (props) => {
+  const { data: session, status } = useSession();
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(session);
+  }, [session]);
+  const [enabled, setEnabled] = useState(false);
+  const navItems = [
+    {
+      key: 0,
+      name: "Home",
+      link: "/home",
+    },
+    {
+      key: 1,
+      name: "Events",
+      link: "/event",
+    },
+    {
+      key: 2,
+      name: "FAQ",
+      link: "#",
+    },
+  ];
+  const handleSignin = (e) => {
+    e.preventDefault();
+    signIn();
+  };
+  return (
+    <div className="w-full border top-0 absolute  bg-transparent flex justify-between px-6 z-20">
+      <div className="items grid ">
+        <ul>
+          {navItems.map((item) => {
+            return (
+              <li
+                className={`${styles.item} hover:cursor-pointer `}
+                key={item.key}
+                onClick={() => {
+                  router.push(item.link);
+                }}
+              >
+                {item.name}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <div className="my-auto font-bold text-xl">Brand</div>
+      <div className="toggleswitch flex my-auto gap-4">
+        {session ? (
+          <Dropdown>
+            <Dropdown.Trigger>
+              <Avatar
+                bordered
+                size="xl"
+                as="button"
+                color="gradient"
+                src={session.user?.image}
+              />
+            </Dropdown.Trigger>
+            <Dropdown.Menu aria-label="Static Actions">
+              <Dropdown.Item>
+                <div onClick={() => router.push("/profile")}>Profile</div>
+              </Dropdown.Item>
+              <Dropdown.Item color="error">
+                <div onClick={() => signOut()}>Signout</div>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        ) : (
+          <button onClick={(e) => handleSignin(e)}>Login</button>
+        )}
+      </div>
+    </div>
+  );
+};
 
 export default Navbar;
