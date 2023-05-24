@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className="mt-28 grid place-items-center w-[60vw]">
+    <div className="mt-28 grid place-items-center w-[80vw]">
         <div className="text-4xl">ABOUT US</div>
       <div className=" grid md:grid-cols-2 gap-5 text-lg">
         <div className="break-words">

@@ -42,7 +42,7 @@ export default function Carousel() {
           slidesPerView={1.3}
           spaceBetween={30}
           modules={[Pagination]}
-          className="mySwiper w-[70vw] "
+          className="mySwiper w-[75vw] "
         >
           {events.map((event, key) => {
             return (
