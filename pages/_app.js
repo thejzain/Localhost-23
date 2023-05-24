@@ -12,6 +12,9 @@ export default function App({ Component, pageProps, session }) {
       fonts: {
         mono: "VT323",
       },
+      colors : {
+        primary : "$white"
+      }
     },
   });
   return (
